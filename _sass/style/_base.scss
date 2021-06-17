@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 9rem 0 8rem 0;
 }
 
@@ -29,16 +29,42 @@ h1 {
   letter-spacing: -0.1rem;
 }
 
+h2 > a:hover {
+  font-weight: bold;
+  color: blue;
+  background: transparent;
+}
+
+p, small {
+  text-align: left;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+p > a {
+  color: blue;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
   outline: none;
   color: inherit;
+  border-radius: $radius;
 }
 
 a:hover,
 a:active {
-  background: $default-color;
+  background: $light-grey;
 }
 
 .current {

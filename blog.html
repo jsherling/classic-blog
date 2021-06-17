@@ -3,12 +3,18 @@ layout: default
 title: Blog
 ---
 <h1>Latest Posts</h1>
-<p>These are the most recent posts</p>
+
+<p>
+  These are the most recent posts that have crossed our desks. We try to add a
+  post about every week, but some weeks are busy, hectic even, and others are
+  more sedate. Entries arrive more often during the mid spring to late fall
+  months, so just keep checking back. It's worth the wait.
+</p>
 
 <ul>
   {% for post in site.posts %}
-  <li>
-    <h2>
+  <li class="blog">
+    <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
     <small>{{ post.author }} | {{ post.date | date: "%b %d, %Y" }}</small>

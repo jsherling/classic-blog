@@ -2,7 +2,7 @@
 layout: post
 title: "Les Miserables"
 author: Victor Hugo
-date: 2021-06-01
+date: 1862-05-23
 categories: guest author hugo
 ---
 In 1815, M. Charles-Francois-Bienvenu Myriel was Bishop of D-- He was an old man

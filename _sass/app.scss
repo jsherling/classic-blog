@@ -21,6 +21,7 @@ $medium-device: $base-font-size * 80%;
 $large-device: $base-font-size;
 
 /* Colors */
+$light-grey: #959595;
 $default-color: gray;
 $font-color: darken($default-color, 60%);
 $light-color: lighten($default-color, 40%);
@@ -30,7 +31,9 @@ $warning-color: yellow;
 $important-color: red;
 $information-color: blue;
 $black-color: lighten(black, 5%);
+$black-ish: rgba(0, 0, 0, 0.95);
 $white-color: darken(white, 5%);
+$white-ish: rgba(255, 255, 255, 0.95);
 
 /* Misc. */
 $radius: 5px;
