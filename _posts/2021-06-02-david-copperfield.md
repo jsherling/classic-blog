@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "David Copperfield"
-date: 2021-06-02 01:02:36 -0700
+author: Charles Dickens
+date: 2021-06-02
 categories: guest author dickens
 ---
 Whether I shall turn out to be the hero of my own life, or whether that station
 will be held by anybody else, these pages must show. To begin my life with the
-beginning of my life, I record that I was born (as I have been informed and
+beginning of my life,<!--more--> I record that I was born (as I have been informed and
 believe) on a Friday, at twelve o'clock at night. It was remarked that the clock
 began to strike, and I began to cry, simultaneously.

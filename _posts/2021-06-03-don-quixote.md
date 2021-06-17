@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Don Quixote"
-date: 2021-06-03 01:34:02 -0700
+author: Miguel de Cervantes
+date: 2021-06-03
 categories: guest author cervantes
 ---
 In a village of La Mancha, the name of which I have no desire to call to mind,
 there lived not long since one of those gentlemen that keep a lance in the
-lance-rack, an old buckler, a lean hack, and a greyhound for coursing. An olla
+lance-rack, an old buckler, a lean hack,<!--more--> and a greyhound for coursing. An olla
 of rather more beef than mutton, a salad on most nights, scraps on Saturdays,
 lentils on Fridays, and a pigeon or so extra on Sundays, made away with
 three-quarters of his income. The rest of it went in a doublet of fine cloth and

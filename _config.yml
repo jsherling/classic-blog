@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Guest Author blog
 email: no_reply@zixzoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   My father's family name being Pirrip, and my Christian name Philip, my infant
@@ -9,8 +9,9 @@ url: 'www.zixzoo.com' # the base hostname & protocol for your site, e.g. http://
 twitter_username: ''
 github_username:  jsherling
 
+excerpt_separator: <!--more-->
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

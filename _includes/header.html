@@ -1,5 +1,20 @@
 <header class="header">
-  <nav>
-
+  <nav class="header--nav">
+    <div class="header--nav__logo">
+      <h1 class="logo">ZíxZøø</h1>
+      <small>
+        A nonsense name for a <span class="current">mostly</span> no-nonsense site.
+      </small>
+    </div>
+    <ul class="header--nav__menu">
+      {% for item in site.data.header %}
+      <li class="header--nav__menu-item">
+        <a href="{{ item.link }}"
+           {% if page.url == item.link %}class="current {{ item.name }}"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </nav>
 </header>
