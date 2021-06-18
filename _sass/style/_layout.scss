@@ -59,6 +59,15 @@
   justify-content: center;
 }
 
+li.blog {
+  border-top: 1px solid $default-color;
+  padding-top: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
 /* Footer */
 
 .footer {
@@ -69,6 +78,7 @@
   right: 0;
   background-color: #e6e6e6;
   border-top: 1px solid $default-color;
+  padding-top: 1em;
 
   &--nav {
     text-align: center;
@@ -85,6 +95,6 @@
   }
 }
 
-.center {
-  text-align: center;
+.copyright {
+  padding-top: 1em;
 }

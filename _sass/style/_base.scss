@@ -18,10 +18,18 @@ body {
   padding: 9rem 0 8rem 0;
 }
 
+h1, h2, h3, h4, h5, h6,
+ul, li, p, small {
+  margin: 0;
+}
+
+ul, li {
+  padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $system-serif;
   line-height: 1;
-  margin: 0;
 }
 
 h1 {
