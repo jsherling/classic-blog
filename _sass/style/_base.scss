@@ -80,6 +80,10 @@ a:active {
   font-weight: bold;
 }
 
+.left {
+  text-align: left;
+}
+
 @media screen and (max-width: 640px) {
   font-size: 62.5%;
   max-width: 95vw;

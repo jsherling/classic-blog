@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# "Helpful" Hints
+# "Help"
 
 
 **1** - Fix mistakes by not making any  

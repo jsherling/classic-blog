@@ -3,5 +3,11 @@ layout: default
 ---
 # Contact
 
-Some contact forms and info will eventually be added to this page so that you
-can contact us. We feel that it is unnecessary at this juncture, however.
+**1** &mdash; Electrical contact  
+**2** &mdash; Make contact  
+**3** &mdash; Angle of contact  
+**4** &mdash; Contact manager  
+**5** &mdash; Break contact  
+**6** &mdash; Deflective occlusal contact  
+**7** &mdash; Close contact  
+**8** &mdash; Contact paper  
