@@ -1,4 +1,5 @@
 ---
+layout: authors
 short_name: hardy
 name: Thomas Hardy
 position: Author

@@ -1,11 +1,18 @@
 ---
 layout: default
 ---
-<h1>Guest Authors & Staff</h1>
+
+<h1 class="staff">Guest Authors</h1>
+<p>
+  Our guest authors are established and new, old and young, male and female, and
+  any number of additional combinations and contradictions. What they all have
+  in common, however, is a good story or poem to share. This list includes every
+  guest author we've had so far.
+</p>
 
 <ul>
   {% for author in site.authors %}
-  <li>
+  <li class="blog">
     <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
     <p>{{ author.content | markdownify }}</p>
   </li>

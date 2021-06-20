@@ -1,4 +1,5 @@
 ---
+layout: authors
 short_name: stoker
 name: Bram Stoker
 position: Author

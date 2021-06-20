@@ -1,4 +1,5 @@
 ---
+layout: authors
 short_name: dickens
 name: Charles Dickens
 position: Author

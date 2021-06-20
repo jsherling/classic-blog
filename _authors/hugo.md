@@ -1,4 +1,5 @@
 ---
+layout: authors
 short_name: hugo
 name: Victor Hugo
 position: Author

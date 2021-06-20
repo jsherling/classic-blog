@@ -1,4 +1,5 @@
 ---
+layout: authors
 short_name: cervantes
 name: Miguel de Cervantes
 position: Author
