@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: static-pages
 title: Guest Author Posts
 ---
-# {{ page.title }}
 
 We are thrilled to be able to offer excerpts from the latest efforts of authors
 all over the world &mdash; and time. We count ourselves lucky to be able to
@@ -21,4 +20,4 @@ Kick back and enjoy!
 
 Yours,  
 
-The Timeless Classics, Inc. staff  
+The Timeless Classics staff  

@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: static-pages
 title: About
 ---
-# {{ page.title }}
 
 **1** &mdash; About face  
 **2** &mdash; About time!  

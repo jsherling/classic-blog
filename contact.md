@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: static-pages
+title: Contact
 ---
-# Contact
 
 **1** &mdash; Electrical contact  
 **2** &mdash; Make contact  
