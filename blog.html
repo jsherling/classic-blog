@@ -8,7 +8,7 @@ title: Blog
   These are the most recent posts that have crossed our front desk. We try to
   add posts every week, but some weeks are busy, hectic even, and others are
   more sedate. Entries tend to arrive more often during the mid spring to late
-  fall months, so just keep checking back. It's worth the wait.
+  fall months, so just keep checking back. It will be worth the wait.
 </p>
 
 <ul>
@@ -17,7 +17,7 @@ title: Blog
     <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <small><a href="{{ post.author.url }}">{{ post.author }}</a> | {{ post.date | date: "%b %d, %Y" }}</small>
+    <small>{{ post.date | date: "%b %d, %Y" }} | {{ post.author }}</small>
     <p>
       {{ post.excerpt }}
     </p>

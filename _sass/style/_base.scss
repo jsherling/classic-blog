@@ -37,10 +37,6 @@ h1 {
   letter-spacing: -0.1rem;
 }
 
-h1.mb-1em {
-  margin-bottom: 1em;
-}
-
 h2 > a:hover {
   font-weight: bold;
   color: blue;
@@ -64,6 +60,14 @@ p > a {
 
 li {
   list-style-type: none;
+}
+
+.mb-1em {
+  margin-bottom: 1em;
+}
+
+.mb-dot5em {
+  margin-bottom: 0.5em;
 }
 
 a {
