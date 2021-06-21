@@ -1,6 +1,6 @@
 ---
 layout: static-pages
-title: "Help"
+title: "'Help'"
 ---
 
 **1** - Fix mistakes by not making any  

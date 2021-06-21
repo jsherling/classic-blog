@@ -8,7 +8,7 @@ categories: guest author stoker
 
 On an evening in the latter part of May a middle-aged man was walking homeward
 from Shaston to the village of Marlott, in the adjoining Vale of Blakemore, or
-Blackmoor. The pair of legs that carried him were rickety, and there<!--more--> was a bias
+Blackmoor. The pair of legs that carried him<!--more--> were rickety, and there was a bias
 in his gait which inclined him somewhat to the left of a straight line. He
 occasionally gave a smart nod, as if in confirmation of some opinion, though he
 was not thinking of anything in particular. An empty egg-basket was slung upon
