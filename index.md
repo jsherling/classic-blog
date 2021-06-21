@@ -1,6 +1,6 @@
 ---
 layout: static-pages
-title: Guest Authors & A Well Read Blog
+title: Guest Authors & A Classic Blog
 ---
 
 We are thrilled to be able to offer excerpts from the latest efforts of authors
@@ -16,8 +16,11 @@ Each excerpt post is presented from a forthcoming work, be it novel, poem,
 screenplay, or essay. Some works have been years or even decades in the making,
 so we feel honored in being able to present them for you on this blog.  
 
-Kick back and enjoy!
+To make room for these excerpts, and because they're so sublime in their
+perfection, we have dumped a good amount of our pages that, frankly, weren't up
+to snuff. You can blame the bickering staff: it's our nature. About the quality
+writing: kick back and enjoy!
 
-Yours,
+Yours,  
 
-The Timeless Classics staff
+The Timeless Classics staff  
