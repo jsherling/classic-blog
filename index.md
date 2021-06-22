@@ -1,6 +1,7 @@
 ---
 layout: static-pages
 title: Guest Authors & A Classic Blog
+author: The Timeless Classics staff
 ---
 
 We are thrilled to be able to offer excerpts from the latest efforts of authors
@@ -20,7 +21,3 @@ To make room for these excerpts, and because they're so sublime in their
 perfection, we have dumped a good amount of our pages that, frankly, weren't up
 to snuff. You can blame the bickering staff: it's our nature. About the quality
 writing: kick back and enjoy!
-
-Yours,  
-
-The Timeless Classics staff  
