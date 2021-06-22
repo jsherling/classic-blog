@@ -6,10 +6,10 @@ title: Blog
 
 <p>
   These are the most recent posts that have crossed our front desk. We try to
-  add something every week, but some weeks (years) are busy, hectic even, and
-  others are more sedate. Entries tend to arrive more often during the mid
-  spring to late fall months, so just keep checking back. We're convinced it
-  will be worth the wait.
+  add something every week, but some weeks are busy, hectic even, and others are
+  more sedate. Entries tend to arrive more often during the mid spring to late
+  fall months, so just keep checking back. We're convinced it will be worth the
+  wait.
 </p>
 
 <ul>
@@ -18,7 +18,13 @@ title: Blog
     <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <small>{{ post.date | date: "%b %d, %Y" }} | {{ post.author }}</small>
+    <small>
+      {{ post.date | date: "%b %d, %Y" }} |
+      {% assign author = site.authors | where: 'name', post.author | first %}
+      {% if author %}
+      <a class="blog-author" href="{{ author.url }}">{{ post.author }}</a>
+      {% endif %}
+    </small>
     <p>
       {{ post.excerpt }}
     </p>

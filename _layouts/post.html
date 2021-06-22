@@ -8,7 +8,11 @@ layout: default
       {{ page.title | escape }}
     </h1>
     <small class="post-meta"><b>
-      {{ page.date | date: "%b %d, %Y" }} | {{ page.author }}
+      {{ page.date | date: "%b %d, %Y" }} |
+      {% assign author = site.authors | where: 'name', page.author | first %}
+      {% if author %}
+      <a class="blog-author" href="{{ author.url }}">{{ page.author }}</a>
+      {% endif %}
     </b></small>
   </header>
   <br>
