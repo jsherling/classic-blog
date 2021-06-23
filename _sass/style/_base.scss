@@ -7,6 +7,7 @@
 body {
   background-color: $light-color;
   font-family: $base-font-family;
+  font-size: 100%;
   color: $font-color;
   min-height: 100vh;
   max-width: 65vw;
@@ -93,15 +94,33 @@ a:active {
   text-align: left;
 }
 
-@media screen and (max-width: 640px) {
-  font-size: 62.5%;
-  max-width: 95vw;
+@media only screen and (max-width: 640px) {
+  body {
+    max-width: 95vw;
+    width: 95vw;
+    font-size: 62.5%;
+    padding: 10rem 0 8rem 0;
+  }
+
+  .header--nav__menu {
+    flex-direction: column;
+    padding: 1em 1em 1em 0;
+  }
+
+  .header--nav__menu:last-child {
+    padding-right: inherit;
+  }
 }
 
-@media screen and (max-width: 1007px) {
-  font-size: 75%;
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+  body {
+    font-size: 75%;
+    padding: 12rem 0 10rem 0
+  }
 }
 
-@media screen and (min-width: 1008px) {
-  font-size: 100%;
+@media only screen and (min-width: 1008px) {
+  .header--nav__menu-item > a > a {
+    padding: 0.75em 1em;
+  }
 }

@@ -31,10 +31,6 @@
       justify-content: center;
       list-style-type: none;
 
-      &:last-child {
-        padding-right: 2.5em;
-      }
-
       &-item {
         color: $white-color;
         cursor: pointer;
@@ -42,11 +38,10 @@
         text-decoration: none;
         font-size: 1.1rem;
         border-radius: $radius;
-
-        & > a {
-          padding: 0.75em 1em;
-        }
       }
+    }
+    &__menu:last-child {
+      padding-right: 2.5em;
     }
   }
 }
