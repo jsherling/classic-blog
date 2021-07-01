@@ -11,7 +11,7 @@ $system-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono",
 $base-font-size: 100%;
 $base-font-weight: 400;
 $base-line-height: $base-font-size * 1.5;
-$h1-size: $base-font-size * 3;
+$h1-size: calc(1.5rem + 3vw);
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 

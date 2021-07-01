@@ -3,14 +3,17 @@ layout: default
 ---
 
 <div class="left">
-  <h1>{{ page.name }}</h1>
-  <small><b>{{ page.position }}</b></small>
-  <p>
-    {{ content }}
-  </p>
+  <div class="mb-1em">
+    <h1>{{ page.name }}</h1>
+    <small><b>{{ page.position }}</b></small>
+  </div>
+  <div class="content mb-1em">
+    <p>
+      {{ content }}
+    </p>
+  </div>
 
   <h2 class="mb-dot5em">Posts</h2>
-
   <ul>
     {% assign filtered_posts = site.posts | where: "author", page.name %}
     {% for post in filtered_posts %}

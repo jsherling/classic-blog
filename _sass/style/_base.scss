@@ -7,20 +7,20 @@
 body {
   background-color: $light-color;
   font-family: $base-font-family;
-  font-size: 100%;
+  font-size: 75%;
   color: $font-color;
   min-height: 100vh;
-  max-width: 65vw;
+  max-width: 90vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0 auto;
-  padding: 9rem 0 8rem 0;
+  padding: 8rem 0 5rem 0;
 }
 
-h1, h2, h3, h4, h5, h6,
-ul, li, p, small {
+h1, h2, h4, ul, li, p, small {
   margin: 0;
 }
 
@@ -28,7 +28,7 @@ ul, li {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4 {
   font-family: $system-serif;
   line-height: 1;
 }
@@ -38,11 +38,12 @@ h1 {
   letter-spacing: -0.1rem;
 }
 
-a.blog-author:hover,
-h2 > a:hover {
-  font-weight: bold;
-  color: blue;
-  background: transparent;
+h2 {
+  font-size: calc(1.2rem + 2vw);
+}
+
+h4 {
+  font-size: calc(0.8rem + 1vw);
 }
 
 p, small {
@@ -56,12 +57,16 @@ p {
 }
 
 p > a {
-  color: blue;
+
   padding: 0;
 }
 
 li {
   list-style-type: none;
+}
+
+li.blog:last-child {
+  margin-bottom: 5em;
 }
 
 .mb-1em {
@@ -77,10 +82,8 @@ a {
   text-decoration: none;
   outline: none;
   color: inherit;
-  border-radius: $radius;
 }
 
-a:hover,
 a:active {
   background: $light-grey;
 }
@@ -94,37 +97,41 @@ a:active {
   text-align: left;
 }
 
-@media only screen and (max-width: 640px) {
-  body {
-    max-width: 90vw;
-    width: 90vw;
-    font-size: 75%;
-    padding: 8rem 0 5rem 0;
-  }
-
-  .header--nav__menu {
-    flex-direction: column;
-    padding: 1em 1em 1em 0;
-  }
-
-  .header--nav__menu:last-child {
-    padding-right: inherit;
-  }
-
-  .header--nav__menu-item {
-    font-size: 0.9rem;
-  }
-}
-
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-  body {
-    font-size: 75%;
-    padding: 8rem 0 6rem 0
+@media only screen and (min-width: 641px) {
+  html body {
+    font-size: 87.5%;
+    padding: 8em 0 9em 0;
   }
 }
 
 @media only screen and (min-width: 1008px) {
-  .header--nav__menu-item > a > a {
-    padding: 0.75em 1em;
+  html body {
+    font-size: 93.75%;
+    padding: 8em 0 9em 0;
+  }
+}
+
+@media only screen and (min-width: 1311px) {
+  html body {
+    font-size: 100%;
+    padding: 9em 0 9em 0;
+  }
+}
+
+@media (hover: hover) {
+  a {
+    color: inherit;
+    border-radius: $radius;
+  }
+
+  a:hover {
+    background: $light-grey;
+  }
+
+  a.blog-author:hover,
+  h2 > a:hover {
+    font-weight: bold;
+    color: blue;
+    background: transparent;
   }
 }

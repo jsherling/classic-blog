@@ -18,7 +18,7 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      margin: 1em 0 1em 1em;
+      margin: 1em 0 1em 2em;
 
       & h1 {
         color: $white-color;
@@ -27,21 +27,25 @@
 
     &__menu {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-end;
       justify-content: center;
       list-style-type: none;
+      padding: 1em 2em 1em 0;
 
       &-item {
-        color: $white-color;
-        cursor: pointer;
-        outline: none;
-        text-decoration: none;
-        font-size: 1.1rem;
-        border-radius: $radius;
+        font-size: 0.7rem;
+
+        & > a {
+          color: $white-color;
+          text-decoration: underline;
+          border-radius: $radius;
+
+          &.current {
+            color: $important-color;
+          }
+        }
       }
-    }
-    &__menu:last-child {
-      padding-right: 2.5em;
     }
   }
 }
@@ -98,8 +102,4 @@ li.bullet + li.bullet {
       }
     }
   }
-}
-
-.copyright {
-  padding: 1em 0;
 }
