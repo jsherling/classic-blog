@@ -7,7 +7,7 @@
 body {
   background-color: $light-color;
   font-family: $base-font-family;
-  font-size: 75%;
+  font-size: $small-device-fs;
   color: $font-color;
   min-height: 100vh;
   max-width: 90vw;
@@ -17,7 +17,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin: 0 auto;
-  padding: 8rem 0 5rem 0;
+  padding: 8rem 0 7rem 0;
 }
 
 h1, h2, h4, ul, li, p, small {
@@ -39,11 +39,11 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1.2rem + 2vw);
+  font-size: $h2-size;
 }
 
 h4 {
-  font-size: calc(0.8rem + 1vw);
+  font-size: $h4-size;
 }
 
 p, small {
@@ -57,7 +57,6 @@ p {
 }
 
 p > a {
-
   padding: 0;
 }
 
@@ -81,7 +80,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   outline: none;
-  color: inherit;
+  color: $information-color;
 }
 
 a:active {
@@ -99,21 +98,21 @@ a:active {
 
 @media only screen and (min-width: 641px) {
   html body {
-    font-size: 87.5%;
+    font-size: $medium-device-fs;
     padding: 8em 0 9em 0;
   }
 }
 
 @media only screen and (min-width: 1008px) {
   html body {
-    font-size: 93.75%;
+    font-size: $large-device-fs;
     padding: 8em 0 9em 0;
   }
 }
 
 @media only screen and (min-width: 1311px) {
   html body {
-    font-size: 100%;
+    font-size: $xlarge-device-fs;
     padding: 9em 0 9em 0;
   }
 }
@@ -131,7 +130,7 @@ a:active {
   a.blog-author:hover,
   h2 > a:hover {
     font-weight: bold;
-    color: blue;
+    color: $information-color;
     background: transparent;
   }
 }
