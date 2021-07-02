@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-author: The Timeless Classics Staff
+author: Staff
 date:   2021-06-16
 categories: jekyll update
 ---

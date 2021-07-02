@@ -3,34 +3,34 @@
 /* Fonts */
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol"; /* Used */
+  "Segoe UI Symbol";
 $system-serif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif",
-  "Times","Source Serif Pro", serif; /* Used */
+  "Times","Source Serif Pro", serif;
 $system-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono",
   "Droid Sans Mono", "Source Code Pro", monospace;
-$h1-size: calc(1.5rem + 3vw); /* Used */
-$h2-size: calc(1.2rem + 2vw); /* Used */
-$h4-size: calc(0.8rem + 1vw); /* Used */
+$h1-size: calc(1.5rem + 3vw);
+$h2-size: calc(1.2rem + 2vw);
+$h4-size: calc(0.8rem + 1vw);
 
 /* Device widths */
-$small-device-fs: 75%; /* Used */
-$medium-device-fs: 87.5%; /* Used */
-$large-device-fs: 93.75%; /* Used */
-$xlarge-device-fs: 100%; /* Used */
+$small-device-fs: 75%;
+$medium-device-fs: 87.5%;
+$large-device-fs: 93.75%;
+$xlarge-device-fs: 100%;
 
 /* Colors */
-$light-grey: #959595; /* Used */
-$default-color: gray; /* Used */
-$footer-bg-color: #e6e6e6; /* Used */
-$font-color: darken($default-color, 60%); /* Used */
-$light-color: lighten($default-color, 40%); /* Used */
-$important-color: red; /* Used */
-$information-color: blue; /* Used */
-$black-color: lighten(black, 5%); /* Used */
-$white-color: darken(white, 5%); /* Used */
+$light-grey: #959595;
+$default-color: gray;
+$footer-bg-color: #e6e6e6;
+$font-color: darken($default-color, 60%);
+$light-color: lighten($default-color, 40%);
+$important-color: red;
+$information-color: blue;
+$black-color: lighten(black, 5%);
+$white-color: darken(white, 5%);
 
 /* Misc. */
-$radius: 5px; /* Used */
+$radius: 5px;
 
 @import
 "style/base",
