@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <header class="post-header">
+  <header class="post-header mb-1em">
     <h1 class="post-title">
       {{ page.title | escape }}
     </h1>
@@ -15,7 +15,14 @@ layout: default
       {% endif %}
     </b></small>
   </header>
-  <br>
+
+  {% if page.image-name and page.image-location %}
+  <figure class="image">
+    <img src="{{ page.image-location }}"
+         alt="{{ page.image-name }}" class="post-img mb-dot5em">
+    <figcaption class="post-caption mb-1em">{{ page.image-name }}</figcaption>
+  </figure>
+  {% endif %}
 
   <div class="post-content">
     {{ content }}

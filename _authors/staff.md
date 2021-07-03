@@ -17,23 +17,24 @@ to King Arthur as his magical saviour and protector.
 
 #### Professor James Moriarty - Editor, Staff writer  
 A fan of Machiavelli and known for his alleged ties to the criminal underworld,
-Professor James Moriarty is also known for his ties to the disappearance of
-famed detective Sherlock Holmes. Moriarty categorically denies any involvement
-and notes that charges have never been successfully brought against him.
+Professor James Moriarty is also known for his connection to the disappearance
+of famed detective Sherlock Holmes. Moriarty categorically denies any
+involvement and notes that charges have never been successfully brought against
+him.
 
 
 #### Madame Defarge - Staff writer  
-Madame Defarge is a ringleader of the "knitting women" and a tireless worker for
-the French Revolution. In her spare time, she obsesses about revenge against the
+Madame Defarge is a "knitting women" ringleader and a tireless worker for the
+French Revolution. In her spare time, she obsesses about revenge against the
 Evrémondes. She is married to Ernest Defarge.
 
 
 #### Milady de Winter - Staff writer  
-Noted for her employment by Cardinal Richelieu, Milady de Winter is also friends
-with the prime minister of England and the Queen of France. In her spare time,
-she plots against a man named D'Artagnan and a group of swordsman known only as
-the musketeers.
+Noted for her ties to Cardinal Richelieu, Milady de Winter is also friends with
+the prime minister of England and the Queen of France. In her spare time, she
+plots against a man named D'Artagnan and a group of swordsman known only as the
+musketeers.
 
 
-#### Edward Hyde - Security  
-The less mentioned about Mr. Hyde, the better. 
+#### Edward Hyde - Security, Intern  
+Mr. Hyde is sponsored by Dr. Jekyll. 

@@ -3,7 +3,7 @@ layout: post
 title:  "The Great Gatsby"
 author: F. Scott Fitzgerald
 date:   1925-04-21
-categories: jekyll update
+categories: guest author fitzgerald
 ---
 
 In my younger and more vulnerable years my father gave me some advice that I’ve
