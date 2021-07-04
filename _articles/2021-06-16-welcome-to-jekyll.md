@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: article
 title:  "Welcome to Jekyll!"
 author: Staff
 date:   2021-06-16
-categories: jekyll update
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and

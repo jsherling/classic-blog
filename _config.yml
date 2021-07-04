@@ -1,5 +1,9 @@
 collections:
+  articles:
+    output: true
   authors:
+    output: true
+  staff:
     output: true
 
 excerpt_separator: <!--more-->

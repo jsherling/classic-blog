@@ -1,7 +1,8 @@
 ---
 layout: static-pages
-title: Guest Authors
-subtitle: Timeless Classics Staff
+title: Your Reading Adventure Awaits!
+image-name: "Image by Seven Shooter (Unsplash.com)"
+image-location: "/assets/images/reader.jpg"
 ---
 
 We are thrilled to be able to offer excerpts from the latest efforts of authors

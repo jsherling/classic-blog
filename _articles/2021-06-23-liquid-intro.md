@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "Markdown: Escaping special characters"
+layout: article
+title:  "Markdown: How to Escape Special Characters"
 author: Staff
 date:   2021-06-23
-categories: jekyll update
 image-name: "Image by Annie Spratt (Unsplash.com)"
 image-location: "/assets/images/waves-of-grain.jpg"
 ---

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article-header mb-1em">
+    <h1 class="article-title">
+      {{ page.title | escape }}
+    </h1>
+    <small class="article-meta"><b>
+      {{ page.date | date: "%b %d, %Y" }} |
+      {% assign author = site.authors | where: 'name', page.author | first %}
+      {% if author %}
+      <a class="article-author" href="{{ author.url }}">{{ page.author }}</a>
+      {% endif %}
+    </b></small>
+  </header>
+
+  {% if page.image-name and page.image-location %}
+  <figure class="image">
+    <img src="{{ page.image-location }}"
+         alt="{{ page.image-name }}" class="post-img mb-dot5em">
+    <figcaption class="post-caption mb-1em">{{ page.image-name }}</figcaption>
+  </figure>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

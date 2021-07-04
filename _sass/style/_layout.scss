@@ -59,7 +59,8 @@
   justify-content: center;
 }
 
-li.blog {
+li.blog,
+li.article {
   border-top: 1px solid $default-color;
   padding-top: 1em;
 }
@@ -95,7 +96,8 @@ li.bullet + li.bullet {
   }
 }
 
-.post-content {
+.post-content,
+.container {
   padding-top: 1em;
 }
 
