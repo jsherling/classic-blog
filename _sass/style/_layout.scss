@@ -127,4 +127,8 @@ li.bullet + li.bullet {
       }
     }
   }
+
+  & > div > p {
+    margin-bottom: 0.25em;
+  }
 }

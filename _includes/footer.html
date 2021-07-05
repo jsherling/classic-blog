@@ -16,11 +16,7 @@
       &copy;
       <span id="copyright-year">
         <script>
-          document
-            .getElementById('copyright-year')
-            .appendChild(
-              document.createTextNode(new Date().getFullYear().toString())
-            );
+          {% include snippets.html %}
         </script>
       </span>
       <b>Jeff Sherling</b> | All rights reserved.</p>
