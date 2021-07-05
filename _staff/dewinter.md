@@ -1,7 +1,8 @@
 ---
-layout: staff
+layout: authors
 name: Milady de Winter
 position: Staff writer
+category: Staff
 ---
 
 Noted for her ties to Cardinal Richelieu, Milady de Winter is also friends with

@@ -6,6 +6,7 @@ collections:
   staff:
     output: true
 
+permalink: /:categories/:title/
 excerpt_separator: <!--more-->
 
 # Build settings

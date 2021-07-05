@@ -1,7 +1,8 @@
 ---
-layout: staff
+layout: authors
 name: Madame Defarge
 position: Staff writer
+category: Staff
 ---
 
 Madame Defarge is a "knitting women" ringleader and a tireless worker for the

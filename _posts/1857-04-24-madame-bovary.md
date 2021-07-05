@@ -3,7 +3,7 @@ layout: post
 title: "Madame Bovary"
 author: Gustave Flaubert
 date: 1857-04-24
-categories: guest author flaubert
+categories: Flaubert
 ---
 
 We were in class when the head-master came in, followed by a “new fellow,” not

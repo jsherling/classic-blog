@@ -3,7 +3,7 @@ layout: post
 title: "A Tale of Two Cities"
 author: Charles Dickens
 date: 1859-05-05
-categories: guest author dickens
+categories: Dickens
 ---
 
 It was the best of times, it was the worst of times, it was the age of wisdom,

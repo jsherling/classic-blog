@@ -1,7 +1,8 @@
 ---
-layout: staff
+layout: authors
 name: Professor James Moriarty
 position: Editor, Staff writer
+category: Staff
 ---
 
 A fan of Machiavelli and known for his alleged ties to the criminal underworld,

@@ -1,7 +1,8 @@
 ---
-layout: staff
+layout: authors
 name: Morgan le Fay
 position: Editor in Chief
+category: Staff
 ---
 
 Morgan le Fay is a powerful enchantress, although she is also accomplished in

@@ -3,7 +3,7 @@ layout: post
 title: "Don Quixote"
 author: Miguel de Cervantes
 date: 1605-09-03
-categories: guest author cervantes
+categories: deCervantes
 ---
 In a village of La Mancha, the name of which I have no desire to call to mind,
 there lived not long since one of those gentlemen that keep a lance in the
