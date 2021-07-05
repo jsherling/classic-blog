@@ -1,0 +1,11 @@
+---
+layout: staff
+name: Professor James Moriarty
+position: Editor, Staff writer
+---
+
+A fan of Machiavelli and known for his alleged ties to the criminal underworld,
+Professor James Moriarty is also known for his connection to the disappearance
+of famed detective Sherlock Holmes. Moriarty categorically denies any
+involvement and notes that charges have never been successfully brought against
+him.

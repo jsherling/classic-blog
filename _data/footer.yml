@@ -1,8 +1,8 @@
 - name: About
-  link: /about.html
+  link: /about
 - name: Contact
-  link: /contact.html
+  link: /contact
 - name: Help
-  link: /help.html
+  link: /help
 - name: Terms
-  link: /terms.html
+  link: /terms
