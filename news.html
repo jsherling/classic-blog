@@ -21,11 +21,7 @@ title: Timeless Articles
       <a href="{{ article.url }}">{{ article.title }}</a>
     </h2>
     <small><b>
-      {{ article.date | date: "%b %d, %Y" }} |
-      {% assign author = site.authors | where: 'name', article.author | first %}
-      {% if author %}
-      <a class="article-author" href="{{ author.url }}">{{ article.author }}</a>
-      {% endif %}
+      {{ article.date | date: "%b %d, %Y" }} | Staff
     </b></small>
     <p>
       {{ article.excerpt }}

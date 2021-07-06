@@ -1,6 +1,8 @@
 ---
-permalink: /404.html
 layout: default
+permalink: /404.html
+image-name: "Image by Hello I'm Nik (Unsplash.com)"
+image-location: "/assets/images/404-image.jpg"
 ---
 
 <style type="text/css" media="screen">
@@ -20,9 +22,15 @@ layout: default
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
+  <figure class="image">
+    <img src="{{ page.image-location }}"
+         alt="{{ page.image-name }}" class="post-img mb-dot5em">
+    <figcaption class="post-caption mb-1em">{{ page.image-name }}</figcaption>
+  </figure>
   <br>
-  <p>This ex-page has gone away,</p>
+  <h4>Page not found :(</h4>
+  <br>
+  <p>This late ex-page has gone away,</p>
   <p>It is no more; above the fray;</p>
   <p>Bereft of life, it rests in peace;</p>
   <p>For more dead terms, please ask John Cleese</p>

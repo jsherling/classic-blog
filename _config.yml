@@ -4,6 +4,12 @@ collections:
   authors:
     output: true
   staff:
+    order:
+      - lefay.md
+      - moriarty.md
+      - dewinter.md
+      - defarge.md
+      - hyde.md
     output: true
 
 permalink: /:categories/:title/

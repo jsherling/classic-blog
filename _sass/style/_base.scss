@@ -25,6 +25,7 @@ ul, li {
 
 h1, h2, h4 {
   font-family: $system-serif;
+  font-weight: normal;
   line-height: 1;
 }
 
@@ -139,8 +140,8 @@ a:active {
   }
 
   a.blog-author:hover,
-  h2 > a:hover {
-    font-weight: bold;
+  h2 > a:hover,
+  h4 > a:hover {
     color: $information-color;
     background: transparent;
   }

@@ -22,6 +22,7 @@
 
       & h1 {
         color: $white-color;
+        font-weight: bold;
       }
     }
 
@@ -60,7 +61,8 @@
 }
 
 li.blog,
-li.article {
+li.article,
+section.staff {
   border-top: 1px solid $default-color;
   padding-top: 1em;
 }

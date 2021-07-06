@@ -8,12 +8,16 @@ layout: default
       {{ page.title | escape }}
     </h1>
     <small class="article-meta"><b>
-      {{ page.date | date: "%b %d, %Y" }} |
-      {% assign author = site.authors | where: 'name', page.author | first %}
-      {% if author %}
-      <a class="article-author" href="{{ author.url }}">{{ page.author }}</a>
+      {{ page.date | date: "%b %d, %Y" }} | Staff
+    </b> •
+      {% assign words = content | number_of_words %}
+      {% if words < 360 %}
+      1 min
+      {% else %}
+      {{ words | divided_by:180 }} mins
       {% endif %}
-    </b></small>
+      read
+    </small>
   </header>
 
   {% if page.image-name and page.image-location %}
