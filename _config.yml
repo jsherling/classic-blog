@@ -30,3 +30,8 @@ defaults:
       path: "assets/images"
     values:
       image: true
+
+domain: jsherling.github.io
+url: https://jsherling.github.io
+baseurl: /classic-blog/
+
