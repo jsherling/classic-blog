@@ -12,7 +12,7 @@ collections:
       - hyde.md
     output: true
 
-permalink: /:categories/:title/
+permalink: {{ site.baseurl }}/:categories/:title/
 excerpt_separator: <!--more-->
 
 # Build settings
@@ -33,5 +33,4 @@ defaults:
 
 domain: jsherling.github.io
 url: https://jsherling.github.io
-baseurl: /classic-blog/
-
+baseurl: /classic-blog

@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: {{ site.baseurl }}/
 - name: News
-  link: /news/
+  link: {{ site.baseurl }}/news/
 - name: Blog
-  link: /blog/
+  link: {{ site.baseurl }}/blog/
 - name: Staff
-  link: /staff/
+  link: {{ site.baseurl }}/staff/

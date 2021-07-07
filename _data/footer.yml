@@ -1,8 +1,8 @@
 - name: About
-  link: /about/
+  link: {{ site.baseurl }}/about/
 - name: Contact
-  link: /contact/
+  link: {{ site.baseurl }}/contact/
 - name: Help
-  link: /help/
+  link: {{ site.baseurl }}/help/
 - name: Terms
-  link: /terms/
+  link: {{ site.baseurl }}/terms/
