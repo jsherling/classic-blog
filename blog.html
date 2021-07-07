@@ -16,13 +16,13 @@ title: Latest Posts
   {% for post in site.posts %}
   <li class="blog">
     <h2 class="post-title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <small><b>
       {{ post.date | date: "%b %d, %Y" }} |
       {% assign author = site.authors | where: 'name', post.author | first %}
       {% if author %}
-      <a class="blog-author" href="{{ author.url }}">{{ post.author }}</a>
+      <a class="blog-author" href="{{ site.baseurl }}{{ author.url }}">{{ post.author }}</a>
       {% endif %}
     </b></small>
     <p>

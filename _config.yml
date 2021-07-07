@@ -1,3 +1,7 @@
+domain: jsherling.github.io
+url: https://jsherling.github.io
+baseurl: /classic-blog
+
 collections:
   articles:
     output: true
@@ -12,8 +16,12 @@ collections:
       - hyde.md
     output: true
 
-permalink: {{ site.baseurl }}/:categories/:title/
+permalink: /:categories/:title/
+
 excerpt_separator: <!--more-->
+
+include:
+  - _*.html
 
 # Build settings
 plugins:
@@ -31,6 +39,6 @@ defaults:
     values:
       image: true
 
-domain: jsherling.github.io
-url: https://jsherling.github.io
-baseurl: /classic-blog
+repository: jsherling/classic-blog
+github: [metadata]
+

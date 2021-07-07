@@ -22,7 +22,7 @@ layout: default
 
   {% if page.image-name and page.image-location %}
   <figure class="image">
-    <img src="{{ page.image-location }}"
+    <img src="{{ site.baseurl }}{{ page.image-location }}"
          alt="{{ page.image-name }}" class="post-img mb-dot5em">
     <figcaption class="post-caption mb-1em">{{ page.image-name }}</figcaption>
   </figure>
