@@ -25,8 +25,8 @@ title: Latest Posts
       <a class="blog-author" href="{{ site.baseurl }}{{ author.url }}">{{ post.author }}</a>
       {% endif %}
     </b></small>
-    <p>
-      {{ post.excerpt }}
+    <p class="excerpt">
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
     </p>
   </li>
   {% endfor %}

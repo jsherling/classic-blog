@@ -101,6 +101,10 @@ a:active {
     justify-content: space-between;
   }
 
+  li.header--nav__menu-item {
+    font-size: 0.88rem;
+  }
+
   li.header--nav__menu-item:not(:first-child) {
     padding-left: 1em;
   }
@@ -117,6 +121,10 @@ a:active {
     width: 80vw;
   }
 
+  li.header--nav__menu-item {
+    font-size: 1rem;
+  }
+
   .footer > div > p {
     margin-bottom: 1em;
   }
@@ -126,6 +134,10 @@ a:active {
   html body {
     font-size: $xlarge-device-fs;
     padding: 9em 0 9em 0;
+  }
+
+  li.header--nav__menu-item {
+    font-size: 1.1rem;
   }
 }
 
