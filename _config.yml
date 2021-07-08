@@ -1,3 +1,7 @@
+domain: jsherling.github.io
+url: https://jsherling.github.io
+baseurl: /classic-blog
+
 collections:
   articles:
     output: true
@@ -13,7 +17,11 @@ collections:
     output: true
 
 permalink: /:categories/:title/
+
 excerpt_separator: <!--more-->
+
+include:
+  - _*.html
 
 # Build settings
 plugins:
@@ -30,3 +38,7 @@ defaults:
       path: "assets/images"
     values:
       image: true
+
+repository: jsherling/classic-blog
+github: [metadata]
+

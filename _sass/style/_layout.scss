@@ -72,6 +72,10 @@ li.bullet {
   margin-left: 1em;
 }
 
+li.bullet::marker {
+  vertical-align: middle;
+}
+
 li.bullet + li.bullet {
   margin-top: 0.5em;
 }
@@ -103,6 +107,9 @@ li.bullet + li.bullet {
   padding-top: 1em;
 }
 
+p.excerpt::after {
+  content: '...';
+}
 
 /* Footer */
 
