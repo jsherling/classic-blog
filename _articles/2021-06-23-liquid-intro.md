@@ -7,7 +7,7 @@ image-name: "Image by Annie Spratt (Unsplash.com)"
 image-location: "/assets/images/waves-of-grain.jpg"
 ---
 
-#### 4.16 Escape special characters
+**4.16 Escape special characters**
 
 Some characters have special meanings in the Markdown syntax. If you want these
 characters verbatim, you have to escape them. For<!--more--> example, a pair of underscores

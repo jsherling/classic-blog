@@ -23,8 +23,8 @@ title: Timeless Articles
     <small><b>
       {{ article.date | date: "%b %d, %Y" }} | Staff
     </b></small>
-    <p>
-      {{ article.excerpt }}
+    <p class="excerpt">
+      {{ article.excerpt | remove: '<p>' | remove: '</p>' }}
     </p>
   </li>
   {% endfor %}
