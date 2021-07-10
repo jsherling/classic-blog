@@ -91,6 +91,8 @@ a:active {
 @media screen and (min-width: 641px) {
   html body {
     font-size: $medium-device-fs;
+    max-width: 85vw;
+    width: 85vw;
     padding: 9em 0;
   }
 
@@ -133,6 +135,8 @@ a:active {
 @media screen and (min-width: 1311px) {
   html body {
     font-size: $xlarge-device-fs;
+    max-width: 75vw;
+    width: 75vw;
     padding: 9em 0 9em 0;
   }
 
