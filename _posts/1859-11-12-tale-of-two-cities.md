@@ -4,6 +4,7 @@ title: "A Tale of Two Cities"
 author: Charles Dickens
 date: 1859-05-05
 categories: Dickens
+tags: English literature 1859 Fiction Historical
 ---
 
 It was the best of times, it was the worst of times, it was the age of wisdom,

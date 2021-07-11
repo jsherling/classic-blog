@@ -4,6 +4,7 @@ title: "Madame Bovary"
 author: Gustave Flaubert
 date: 1857-04-24
 categories: Flaubert
+tags: French literature 1857 Fiction Domestic
 ---
 
 We were in class when the head-master came in, followed by a “new fellow,” not

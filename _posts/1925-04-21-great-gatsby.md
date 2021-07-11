@@ -4,6 +4,7 @@ title:  "The Great Gatsby"
 author: F. Scott Fitzgerald
 date:   1925-04-21
 categories: Fitzgerald
+tags: American literature 1925 Fiction Drama
 ---
 
 In my younger and more vulnerable years my father gave me some advice that I’ve
