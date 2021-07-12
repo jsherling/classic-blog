@@ -4,7 +4,7 @@ title: "The Hunchback of Notre-Dame"
 author: Victor Hugo
 date: 1831-03-24
 categories: Hugo
-tags: French literature 1831 Fiction Historical
+tags: French Historical
 ---
 **THE GRAND HALL**
 

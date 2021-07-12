@@ -1,41 +1,18 @@
 ---
-layout: default
-title: Tags
+layout: static-pages
+title: Post Tags
 permalink: /tags/
 ---
-{% capture site_tags %}
+<section class="left">
   {% for tag in site.tags %}
-    {{ tag | first }}
-    {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-{% endcapture %}
-{% assign tag_words = site_tags | split:',' | sort %}
-
-<section class="blog-tags">
-  <h1>Blog & Article Tags</h1>
-  <ul class="tags">
-    <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
-    {% for tag in tag_words %}
-    <li >
-      <a href="#{{ tag | cgi_escape }}" class="tag">
-        {{ tag }} <span>({{ site.tags[tag].size }})</span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-  <!--cycle through tag list and create subheader for each tag name -->
-  {% for tag in tag_words %}
-    <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
-    <!-- list all posts & articles corresponding to tag -->
-    {% for post in site.tags[tag] %}
-      {% if post.title != null %}
-      <div class="tag-list">
-        <span>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </span>
-        <small><span>| {{ post.date | date_to_string }}</span></small>
-      </div>
-      {% endif %}
-    {% endfor %}
+    <h4 class="pt-1em">{{ tag[0] }}</h4>
+    <ul>
+      {% for post in tag[1] %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> |
+          {{ post.date | date: "%b %d, %Y" }}
+        </li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 </section>

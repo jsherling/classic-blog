@@ -4,7 +4,7 @@ title: "Don Quixote"
 author: Miguel de Cervantes
 date: 1605-09-03
 categories: deCervantes
-tags: Spanish literature 1605 Fiction Comedy
+tags: Spanish Comedy
 ---
 
 In a village of La Mancha, the name of which I have no desire to call to mind,

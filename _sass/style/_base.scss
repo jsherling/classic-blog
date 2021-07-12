@@ -60,6 +60,10 @@ li {
   list-style-type: none;
 }
 
+.pt-1em:not(:first-child) {
+  padding-top: 1em;
+}
+
 .mb-1em {
   margin-bottom: 0.8em;
 }
@@ -77,6 +81,12 @@ a {
 
 a:active {
   background: $light-grey;
+}
+
+a.tag {
+  border: 1px solid $information-color;
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
 }
 
 .current {
@@ -167,4 +177,8 @@ a:active {
     padding: 0.4em 0.5em;
   }
 
+  a.tag {
+    border: 1px solid $default-color;
+    padding: 0.2em 0.4em;
+  }
 }

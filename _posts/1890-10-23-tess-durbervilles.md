@@ -4,7 +4,7 @@ title: "Tess of the D'Urbervilles"
 author: Thomas Hardy
 date: 1890-10-23
 categories: Hardy
-tags: English literature 1890 Fiction Tragedy
+tags: English Tragedy
 ---
 
 On an evening in the latter part of May a middle-aged man was walking homeward
