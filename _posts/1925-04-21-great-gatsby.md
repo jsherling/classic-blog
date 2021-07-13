@@ -2,10 +2,9 @@
 layout: post
 title:  "The Great Gatsby"
 author: F. Scott Fitzgerald
-date:   1925-04-21
-categories: Fitzgerald
+category: Fitzgerald
+tags: American Drama
 ---
-
 In my younger and more vulnerable years my father gave me some advice that I’ve
 been turning over in my mind ever since<!--more-->.
 

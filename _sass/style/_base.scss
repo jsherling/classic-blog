@@ -1,3 +1,9 @@
+html {
+  @media (min-height: 9em) {
+    scroll-padding-top: 7em;
+  }
+}
+
 body {
   background-color: $light-color;
   font-family: $base-font-family;
@@ -43,6 +49,12 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+h4:target {
+  margin-top: -10em;
+  padding-top: 10em;
+  display: inline-block;
+}
+
 p, small {
   text-align: left;
   line-height: 1.5;
@@ -56,8 +68,16 @@ p > a {
   padding: 0;
 }
 
+p.tag {
+  margin-bottom: 0.5em;
+}
+
 li {
   list-style-type: none;
+}
+
+.pt-1em:not(:first-child) {
+  padding-top: 1em;
 }
 
 .mb-1em {
@@ -79,6 +99,19 @@ a:active {
   background: $light-grey;
 }
 
+a.tag {
+  padding: 0.2em 0.4em;
+
+  &:not(:last-child) {
+    margin-bottom: 0.4em;
+  }
+
+  &.border {
+    border: 1px solid $information-color;
+    border-radius: 5px;
+  }
+}
+
 .current {
   color: $important-color;
   font-weight: bold;
@@ -91,6 +124,8 @@ a:active {
 @media screen and (min-width: 641px) {
   html body {
     font-size: $medium-device-fs;
+    max-width: 85vw;
+    width: 85vw;
     padding: 9em 0;
   }
 
@@ -133,6 +168,8 @@ a:active {
 @media screen and (min-width: 1311px) {
   html body {
     font-size: $xlarge-device-fs;
+    max-width: 75vw;
+    width: 75vw;
     padding: 9em 0 9em 0;
   }
 
@@ -163,4 +200,7 @@ a:active {
     padding: 0.4em 0.5em;
   }
 
+  a.tag.border {
+    border: 1px solid $default-color;
+  }
 }

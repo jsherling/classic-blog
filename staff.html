@@ -14,9 +14,12 @@ title: Authors
 
   <ul>
     {% for author in site.authors %}
-    <li class="blog">
+    <li class="author">
       <h2><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
-      <p class="excerpt">{{ author.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      <p class="excerpt">
+        <br>
+        {{ author.excerpt | remove: '<p>' | remove: '</p>' }}
+      </p>
     </li>
     {% endfor %}
   </ul>
@@ -34,7 +37,9 @@ title: Authors
     {% for author in site.staff %}
     <li class="bullet">
       <h4><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h4>
-      <p class="excerpt">{{ author.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      <p class="excerpt">
+        {{ author.excerpt | remove: '<p>' | remove: '</p>' }}
+      </p>
     </li>
     {% endfor %}
   </ul>
