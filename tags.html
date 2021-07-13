@@ -3,7 +3,7 @@ layout: static-pages
 title: Tags
 permalink: /tags/
 ---
-<section>
+<section class="posts">
   <h2 class="mb-dot5em center">Posts</h2>
   <div class="left">
     {% for tag in site.tags %}
@@ -21,15 +21,17 @@ permalink: /tags/
       </ul>
     {% endfor %}
   </div>
-  
+</section>
+<hr>
+<section class="articles">
   <h2 class="mb-dot5em center">Articles</h2>
   <div class="left">
     {% assign tags =  site.articles | map: 'tags' | uniq %}
-    {% for tag in tags %}
-      <h4 class="pt-1em">{{ tag | capitalize }}</h4>
+    {% for temp in tags %}
+      <h4 class="pt-1em" id="{{ temp }}">{{ temp | capitalize }}</h4>
       <ul>
         {% for article in site.articles %}
-          {% if article.tags contains tag %}
+          {% if article.tags contains temp %}
           <li>
             <a href="{{ site.baseurl }}/{{ article.url }}">
               {{ article.title }}
