@@ -3,16 +3,20 @@ layout: static-pages
 title: Post Tags
 permalink: /tags/
 ---
-<section class="left">
+<div class="left">
   {% for tag in site.tags %}
-    <h4 class="pt-1em">{{ tag[0] }}</h4>
+    <h4 class="pt-1em" id="{{ tag[0] }}">{{ tag[0] }}</h4>
     <ul>
       {% for post in tag[1] %}
         <li>
-          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> |
-          {{ post.date | date: "%b %d, %Y" }}
+          <p class="tag">
+            <a class="tag" href="{{ site.baseurl }}/{{ post.url }}">
+                {{ post.title }}
+              </a> |
+            {{ post.date | date: "%b %d, %Y" }}
+          </p>
         </li>
       {% endfor %}
     </ul>
   {% endfor %}
-</section>
+</div>

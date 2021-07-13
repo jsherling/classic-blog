@@ -2,8 +2,7 @@
 layout: post
 title: "David Copperfield"
 author: Charles Dickens
-date: 1850-11-18
-categories: Dickens
+category: Dickens
 tags: English Bildungsroman
 ---
 Whether I shall turn out to be the hero of my own life, or whether that station

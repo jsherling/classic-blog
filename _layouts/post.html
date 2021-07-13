@@ -38,9 +38,9 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="page-tag">
+  <footer class="page-tag">
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&num; {{ tag }}</a>
+      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag border">&num; {{ tag }}</a>
     {% endfor %}
-  </div>
+  </footer>
 </article>

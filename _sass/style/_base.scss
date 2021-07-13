@@ -1,3 +1,9 @@
+html {
+  @media (min-height: 9em) {
+    scroll-padding-top: 7em;
+  }
+}
+
 body {
   background-color: $light-color;
   font-family: $base-font-family;
@@ -43,6 +49,12 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+h4:target {
+  margin-top: -10em;
+  padding-top: 10em;
+  display: inline-block;
+}
+
 p, small {
   text-align: left;
   line-height: 1.5;
@@ -54,6 +66,10 @@ p {
 
 p > a {
   padding: 0;
+}
+
+p.tag {
+  margin-bottom: 0.5em;
 }
 
 li {
@@ -84,9 +100,16 @@ a:active {
 }
 
 a.tag {
-  border: 1px solid $information-color;
-  border-radius: 5px;
   padding: 0.2em 0.4em;
+
+  &:not(:last-child) {
+    margin-bottom: 0.4em;
+  }
+
+  &.border {
+    border: 1px solid $information-color;
+    border-radius: 5px;
+  }
 }
 
 .current {
@@ -177,8 +200,7 @@ a.tag {
     padding: 0.4em 0.5em;
   }
 
-  a.tag {
+  a.tag.border {
     border: 1px solid $default-color;
-    padding: 0.2em 0.4em;
   }
 }
