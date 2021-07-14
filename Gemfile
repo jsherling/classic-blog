@@ -14,7 +14,6 @@ gem 'webrick', '~> 1.7'
 #  To upgrade, run `bundle update github-pages`
 group :jekyll_plugins do
   gem 'github-pages', '~> 215'
-  gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
