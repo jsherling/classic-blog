@@ -58,6 +58,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 li.author,
@@ -116,10 +117,11 @@ p.excerpt::after {
 
 .footer {
   width: 100vw;
+  /*
   position: fixed;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0; */
   background-color: $footer-bg-color;
   border-top: 1px solid $default-color;
   padding-top: 1em;
