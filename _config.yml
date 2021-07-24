@@ -8,6 +8,8 @@ baseurl: /classic-blog
 collections:
   articles:
     output: true
+  lists:
+    output: true
   authors:
     output: true
   staff:
