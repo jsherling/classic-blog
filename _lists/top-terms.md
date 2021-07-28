@@ -1,6 +1,6 @@
 ---
-layout: lists
-title: Terms & Conditions
+layout: list
+title: 4 Terms, 1 Phrase & 3 Conditions
 ---
 
 **1** &mdash; A single term for a US Senator is 6 years  
@@ -10,4 +10,4 @@ title: Terms & Conditions
 **5** &mdash; Ontology  
 **6** &mdash; “**If** yesterday was Wednesday, today is Thursday.”  
 **7** &mdash; Rain dog  
-**8** &mdash; Hazardous biowaste 
+**8** &mdash; Hazardous biowaste  

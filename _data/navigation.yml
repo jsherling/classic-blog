@@ -5,6 +5,8 @@ header:
     link: /news/
   - name: Blog
     link: /blog/
+  - name: Lists
+    link: /lists/
   - name: Tags
     link: /tags/
   - name: Staff
