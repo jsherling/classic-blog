@@ -64,6 +64,7 @@
 li.author,
 li.blog,
 li.article,
+li.list,
 section.staff {
   border-top: 1px solid $default-color;
   padding-top: 1em;
@@ -111,6 +112,17 @@ li.bullet + li.bullet {
 
 p.excerpt::after {
   content: '...';
+}
+
+.tags-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2vw;
+}
+
+h1.article-title {
+  text-align: left;
 }
 
 /* Footer */

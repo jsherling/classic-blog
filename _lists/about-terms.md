@@ -3,8 +3,8 @@ layout: list
 title: 9 Abouts
 ---
 
-We're getting tired of always catching up with the latest About. This list ought
-to keep us caught up for the next 15 minutes or so.
+We're tired of always playing catch-up with the latest About turn of phrase.
+So this list ought to keep us current for the next 15 minutes or so.
 
 **1** &mdash; About face  
 **2** &mdash; About time!  
