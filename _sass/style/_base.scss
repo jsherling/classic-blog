@@ -209,7 +209,9 @@ a.tag {
     background: transparent;
   }
 
-  ul.header--nav__menu > li > a {
+  ul.header--nav__menu > li > a,
+  ul.foot
+  er--nav__menu > li > a {
     text-decoration: none;
     padding: 0.4em 0.5em;
   }

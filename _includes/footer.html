@@ -3,10 +3,12 @@
     <ul class="footer--nav__menu mb-1em">
       {% for item in site.data.navigation.footer %}
       <li class="footer--nav__menu-item">
-        <a href="{{ site.baseurl }}{{ item.link }}"
+        <p class="footer--nav__p">
+          <a href="{{ site.baseurl }}{{ item.link }}"
            {% if page.url == item.link %}class="current"{% endif %}>
           {{ item.name }}
-        </a>
+          </a>
+        </p>
       </li>
       {% endfor %}
     </ul>
