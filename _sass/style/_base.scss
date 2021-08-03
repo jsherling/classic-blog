@@ -65,9 +65,11 @@ p {
   margin-bottom: 1em;
 }
 
+/*
 p > a {
   padding: 0;
 }
+*/
 
 p.tag {
   margin-bottom: 0.5em;
@@ -155,7 +157,7 @@ a.tag {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 110%;
   }
 }
 
@@ -196,6 +198,7 @@ a.tag {
   a {
     color: inherit;
     border-radius: $radius;
+    text-decoration: none;
   }
 
   a:hover {
@@ -209,9 +212,8 @@ a.tag {
     background: transparent;
   }
 
-  ul.header--nav__menu > li > a,
-  ul.foot
-  er--nav__menu > li > a {
+  li.header--nav__menu-item > a,
+  li.footer--nav__menu-item > a {
     text-decoration: none;
     padding: 0.4em 0.5em;
   }
