@@ -7,18 +7,22 @@
         of our junk.
       </small>
     </div>
+    <div class="menuToggle">
+      <input type="checkbox" class="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
 
-    <!-- Header nav hamburger:
-          https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
-    <ul class="header--nav__menu">
-      {% for item in site.data.navigation.header %}
-      <li class="header--nav__menu-item mb-dot5em">
-        <a href="{{ site.baseurl }}{{ item.link }}"
-           {% if page.url == item.link %}class="current {{ item.name }}"{% endif %}>
-          {{ item.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="header--nav__menu menu">
+        {% for item in site.data.navigation.header %}
+        <li class="header--nav__menu-item mb-dot5em">
+          <a href="{{ site.baseurl }}{{ item.link }}"
+             {% if page.url == item.link %}class="current {{ item.name }}"{% endif %}>
+            {{ item.name }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
 </header>
