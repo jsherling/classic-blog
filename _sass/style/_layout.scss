@@ -59,7 +59,7 @@
   z-index: 1;
 
   & a {
-    color: yellowgreen;
+    color: $white-color;
     transition: color 0.3s ease;
   }
 
@@ -69,7 +69,7 @@
     width: 2.5em;
     height: 2em;
     position: absolute;
-    top: -1em;
+    top: 1em;
     right: 1em;
     opacity: 0;
     z-index: 2;
@@ -112,28 +112,32 @@
   & .checkbox:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-
-  & .checkbox:checked ~ ul {
-    transform: none;
-  }
 }
 
 .menu {
-  width: 40vw;
   position: absolute;
+  width: 25vw;
   background: $light-color;
   list-style-type: none;
-  border: 2px solid black;
+  border: 2px solid $black-color;
   margin: -6.5em -3.1em 0 0;
-  padding: 8em 3.1em 3.1em 3.1em;
+  padding: 4em 3.1em 3.1em 3.1em;
   transform-origin: 0 0;
-  transform: translate(-100%, 0);
+  transform: translate(100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
   & li {
     font-size: 125%;
-    padding: 0.625em 0;
+    padding: 0.625em;
+
+    & a {
+      color: $black-color;
+    }
   }
+}
+
+.menuToggle .checkbox:checked ~ .menu {
+  transform: translate(-100%, 0);
 }
 
 /* Container (body) */
