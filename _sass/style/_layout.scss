@@ -219,6 +219,21 @@ h1.article-title {
   text-align: left;
 }
 
+fieldset.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  max-width: 100%;
+}
+
+section.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Footer */
 
 .footer {

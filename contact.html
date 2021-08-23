@@ -3,16 +3,18 @@ layout: static-pages
 title: Contact
 ---
 
-<form>
-  <fieldset>
-    <legend>Submit your name and email address</legend>
+<form class="contact">
+  <fieldset class="contact">
+    <legend>Submit your information</legend>
 
-    <label>Name</label>
-    <input type="email" required>
-
-    <label>Email</label>
-    <input type="password" required>
-
-    <button class="btn">Submit</button>
+    <section class="contact name">
+      <label>Full Name</label>
+      <input type="text" required class="contact">
+    </section>
+    <section class="contact email">
+      <label>Email</label>
+      <input type="email" required class="contact">
+    </section>
+    <button class="contact btn">Submit</button>
   </fieldset>
 </form>
