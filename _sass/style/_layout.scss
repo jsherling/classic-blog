@@ -223,15 +223,44 @@ fieldset.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 25vw;
-  max-width: 100%;
-}
-
-section.contact {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+  height: 40vh;
+  width: 35vw;
+  max-width: 100%;
+  padding: 1em;
+  border: 1px solid $white-color;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px $default-color;
+
+  & legend {
+    border: 1px solid $white-color;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px $default-color;
+  }
+
+  & section.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+    & input {
+      padding: 0.5em;
+      border: 1px solid $white-color;
+      border-radius: 5px;
+    }
+  }
+
+  & button {
+    width: 90%;
+    font-size: 1.25rem;
+    padding: 0.5em 0;
+    border: 1px solid $white-color;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px $default-color;
+    outline: none;
+  }
 }
 
 /* Footer */
