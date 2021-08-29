@@ -2,7 +2,7 @@
 layout: static-pages
 ---
 
-<form class="contact">
+<form action="mailto:info@test-werks-llc.com" class="contact">
   <h1 class="center mb-1em">Contact Us</h1>
   <fieldset class="contact">
     <legend class="mb-1em"><strong>Submit your information</strong></legend>
@@ -14,6 +14,10 @@ layout: static-pages
     <section class="contact email mb-1em">
       <label>Email</label>
       <input type="email" required class="contact">
+    </section>
+    <section class="contact message mb-1em">
+      <label>Message</label>
+      <textarea required class="contact"></textarea>
     </section>
     <button class="contact btn mb-1em">Submit</button>
   </fieldset>
