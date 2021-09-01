@@ -50,96 +50,7 @@
     }
   }
 }
-/*
-.menuToggle {
-  display: block;
-  position: relative;
-  top: 1em;
-  right: 1em;
-  z-index: 1;
 
-  & a {
-    color: $white-color;
-    transition: color 0.3s ease;
-  }
-
-  & .checkbox {
-    display: block;
-    cursor: pointer;
-    width: 2.5em;
-    height: 2em;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    opacity: 0;
-    z-index: 2;
-  }
-
-  & span {
-    display: block;
-    width: 2em;
-    height: 4px;
-    position: relative;
-    background: $white-color;
-    border-radius: 3px;
-    z-index: 1;
-    margin-bottom: 5px;
-    transform-origin: 4px 0;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-                opacity 0.55s ease;
-
-    &:first-child {
-      transform-origin: 0 0;
-    }
-
-    &:nth-last-child(2) {
-      transform-origin: 0 100%;
-    }
-  }
-
-  & .checkbox:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: $black-color;
-  }
-
-  & .checkbox:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  & .checkbox:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-}
-
-.menu {
-  position: absolute;
-  width: 25vw;
-  background: $light-color;
-  list-style-type: none;
-  border: 2px solid $black-color;
-  margin: -6.5em -3.1em 0 0;
-  padding: 4em 3.1em 3.1em 3.1em;
-  transform-origin: 0 0;
-  transform: translate(100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-
-  & li {
-    font-size: 125%;
-    padding: 0.625em;
-
-    & a {
-      color: $black-color;
-    }
-  }
-}
-
-.menuToggle .checkbox:checked ~ .menu {
-  transform: translate(-100%, 0);
-}
-*/
 /* Container (body) */
 
 .container {
@@ -218,52 +129,6 @@ p.excerpt::after {
 h1.article-title {
   text-align: left;
 }
-
-/*
-fieldset.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 40vh;
-  width: 35vw;
-  max-width: 100%;
-  padding: 1em;
-  border: 1px solid $white-color;
-  border-radius: 10px;
-  box-shadow: 1px 3px 5px $default-color;
-
-  & legend {
-    border: 1px solid $white-color;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    box-shadow: 1px 3px 5px $default-color;
-  }
-
-  & section.contact {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-
-    & input {
-      padding: 0.5em;
-      border: 1px solid $white-color;
-      border-radius: 5px;
-    }
-  }
-
-  & button {
-    width: 90%;
-    font-size: 1.25rem;
-    padding: 0.5em 0;
-    border: 1px solid $white-color;
-    border-radius: 5px;
-    box-shadow: 1px 3px 5px $default-color;
-    outline: none;
-  }
-}
-*/
 
 /* Footer */
 
