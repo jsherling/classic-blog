@@ -1,14 +1,24 @@
 header:
   - name: Home
     link: /
-  - name: News
-    link: /news/
-  - name: Blog
-    link: /blog/
-  - name: Lists
-    link: /lists/
-  - name: Tags
-    link: /tags/
+  - name: Sections
+    subcategories:
+      - subtitle: News
+        link: /news/
+      - subtitle: Blog
+        link: /blog/
+      - subtitle: Lists
+        link: /lists/
+      - subtitle: Tags
+        link: /tags/
+#  - name: News
+#    link: /news/
+#  - name: Blog
+#    link: /blog/
+#  - name: Lists
+#    link: /lists/
+#  - name: Tags
+#    link: /tags/
   - name: Staff
     link: /staff/
 footer:
