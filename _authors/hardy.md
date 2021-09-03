@@ -2,6 +2,8 @@
 layout: authors
 short_name: hardy
 name: Thomas Hardy
+description: Some background of author Thomas Hardy
+locale: en_US
 position: Guest Author
 ---
 

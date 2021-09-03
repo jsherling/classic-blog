@@ -2,6 +2,8 @@
 layout: authors
 short_name: fitzgerald
 name: F. Scott Fitzgerald
+description: Some background of author F. Scott Fitzgerald
+locale: en_US
 position: Guest Author
 ---
 

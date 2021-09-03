@@ -2,6 +2,8 @@
 layout: authors
 short_name: melville
 name: Herman Melville
+description: Some background of author Herman Melville
+locale: en_US
 position: Guest Author
 ---
 

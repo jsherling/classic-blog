@@ -2,6 +2,8 @@
 layout: authors
 short_name: stoker
 name: Bram Stoker
+description: Some background of author Bram Stoker
+locale: en_US
 position: Guest Author
 ---
 

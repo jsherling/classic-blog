@@ -2,6 +2,8 @@
 layout: authors
 short_name: hugo
 name: Victor Hugo
+description: Some background of author Victor Hugo
+locale: en_US
 position: Guest Author
 ---
 

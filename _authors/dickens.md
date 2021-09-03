@@ -2,6 +2,8 @@
 layout: authors
 short_name: dickens
 name: Charles Dickens
+description: Some background of author Charles Dickens
+locale: en_US
 position: Guest Author
 ---
 

@@ -2,6 +2,8 @@
 layout: authors
 short_name: flaubert
 name: Gustave Flaubert
+description: Some background of author Gustave Flaubert
+locale: en_US
 position: Guest Author
 ---
 

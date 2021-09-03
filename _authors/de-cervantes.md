@@ -2,6 +2,8 @@
 layout: authors
 short_name: cervantes
 name: Miguel de Cervantes
+description: Some background of author Miguel de Cervantes Saavedra
+locale: en_US
 position: Guest Author
 ---
 
