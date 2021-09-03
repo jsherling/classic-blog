@@ -3,6 +3,8 @@ layout: post
 title: "The Hunchback of Notre-Dame"
 author: Victor Hugo
 category: Hugo
+description: First six paragraphs of 'The Hunchback of Notre-Dame'
+locale: en_US
 tags: French Historical
 ---
 **THE GRAND HALL**

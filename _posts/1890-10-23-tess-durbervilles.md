@@ -3,6 +3,8 @@ layout: post
 title: "Tess of the D'Urbervilles"
 author: Thomas Hardy
 category: Hardy
+description: First 15 paragraphs of "Tess of the D'Urbervilles"
+locale: en_US
 tags: English Tragedy
 ---
 On an evening in the latter part of May a middle-aged man was walking homeward

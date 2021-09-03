@@ -3,6 +3,8 @@ layout: post
 title: "Les Miserables"
 author: Victor Hugo
 category: Hugo
+description: First nine paragraphs of 'Les Miserables'
+locale: en_US
 tags: French Historical
 ---
 In 1815, M. Charles-Francois-Bienvenu Myriel was Bishop of D-- He was an old man

@@ -3,6 +3,8 @@ layout: article
 title:  "Welcome to Jekyll!"
 author: Staff
 date:   2021-06-16
+description: Basics of Jekyll
+locale: en_US
 tags: jekyll posts naming snippets web server
 ---
 

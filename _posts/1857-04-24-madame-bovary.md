@@ -3,6 +3,8 @@ layout: post
 title: "Madame Bovary"
 author: Gustave Flaubert
 category: Flaubert
+description: First eight paragraphs of 'Madame Bovary'
+locale: en_US
 tags: French Domestic
 ---
 We were in class when the head-master came in, followed by a “new fellow,” not

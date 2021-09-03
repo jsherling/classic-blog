@@ -3,6 +3,8 @@ layout: post
 title: "David Copperfield"
 author: Charles Dickens
 category: Dickens
+description: First five paragraphs of 'David Copperfield'
+locale: en_US
 tags: English Bildungsroman
 ---
 Whether I shall turn out to be the hero of my own life, or whether that station

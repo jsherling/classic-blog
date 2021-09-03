@@ -3,6 +3,8 @@ layout: post
 title: "Don Quixote"
 author: Miguel de Cervantes
 category: deCervantes
+description: First three paragraphs of 'Don Quixote'
+locale: en_US
 tags: Spanish Comedy
 ---
 In a village of La Mancha, the name of which I have no desire to call to mind,

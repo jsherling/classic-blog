@@ -3,6 +3,8 @@ layout: post
 title: "A Tale of Two Cities"
 author: Charles Dickens
 category: Dickens
+description: First four paragraphs of 'A Tale of Two Cities'
+locale: en_US
 tags: English Historical
 ---
 It was the best of times, it was the worst of times, it was the age of wisdom,

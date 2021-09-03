@@ -4,6 +4,7 @@ title: A Classic Blog
 domain: jsherling.github.io
 url: https://jsherling.github.io
 baseurl: /classic-blog
+tagline: A blog dedicated to classic public domain books
 
 collections:
   articles:
