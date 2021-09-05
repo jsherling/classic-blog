@@ -1,13 +1,13 @@
 <header class="header">
   <nav class="header--nav">
-    <div class="header--nav__logo">
+    <section class="header--nav__logo">
       <h1 class="logo">A Classic Blog</h1>
       <small>
         Excerpts from <span class="current">classic</span> literature + some
         of our junk.
       </small>
-    </div>
-    <div class="menuToggle">
+    </section>
+    <section class="menuToggle">
       <ul class="header--nav__menu menu">
         {% for item in site.data.navigation.header %}
         <li class="header--nav__menu-item mb-dot5em">
@@ -18,6 +18,6 @@
         </li>
         {% endfor %}
       </ul>
-    </div>
+    </section>
   </nav>
 </header>
