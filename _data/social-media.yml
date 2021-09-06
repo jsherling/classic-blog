@@ -1,41 +1,47 @@
 email:
   id: 'your.name@yoursite.com'
   href: 'mailto:'
-  title: 'Email'
+  brand: 'Email'
   fa-icon: 'fa-envelope-square'
 
 facebook:
   id: 'your-facebook-username'
-  href: 'https://www.facebook.com/'
-  title: 'Facebook'
+  href: 'https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&p[title]={{ page.title }}'
+  brand: 'Facebook'
   fa-icon: 'fa-facebook-square'
 
 twitter:
-  id: 'your-twitter-name'
-  href: 'https://www.twitter.com/'
-  title: 'Twitter'
+  id: '@your-twitter-name'
+  href: 'https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}'
+  brand: 'Twitter'
   fa-icon: 'fa-twitter-square'
 
 github:
   id: 'your-github-name'
   href: 'https://github.com/'
-  title: 'GitHub'
+  brand: 'GitHub'
   fa-icon: 'fa-github-square'
 
-# Twitter
-#  http://twitter.com/share?text=<TITLE>&url=<URL>&via=<TWITTER-HANDLE>&related=<TWITTER-HANDLE>
+pinterest:
+  id: 'your-github-name'
+  href: 'https://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&description={{ page.title }}'
+  brand: 'GitHub'
+  fa-icon: 'fa-github-square'
 
-# Facebook
-# http://www.facebook.com/sharer.php?u=<URL>&p[title]=<TITLE>
+linkedin:
+  id: 'your-linkedin-name'
+  href: 'https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.url }}'
+  brand: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
 
-# Pinterest
-# http://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>
+tumblr:
+  id: 'your-tumblr-name'
+  href: 'https://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.description }}'
+  brand: 'Tumblr'
+  fa-icon: 'fa-tumblr-square'
 
-# LinkedIn
-# http://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>
-
-# Tumblr
-# http://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>
-
-# Reddit
-# http://www.reddit.com/submit?url=<URL>&title=<TITLE>
+reddit:
+  id: 'your-reddit-name'
+  href: 'https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}'
+  brand: 'Reddit'
+  fa-icon: 'fa-reddit-square'
