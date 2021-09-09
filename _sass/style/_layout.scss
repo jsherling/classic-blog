@@ -156,3 +156,20 @@ h1.article-title {
     margin-bottom: 0.25em;
   }
 }
+
+section.social > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 4em;
+}
+
+svg.sprite {
+  max-width: 2em;
+  max-height: 2em;
+}
+
+.twitter {
+  fill: #1b95e0;
+}
