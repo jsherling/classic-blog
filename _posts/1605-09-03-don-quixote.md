@@ -2,7 +2,7 @@
 layout: post
 title: "Don Quixote"
 author: Miguel de Cervantes
-category: deCervantes
+category: Cervantes
 description: First three paragraphs of 'Don Quixote'
 locale: en_US
 tags: Spanish Comedy

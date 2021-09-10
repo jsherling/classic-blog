@@ -6,13 +6,13 @@ email:
 
 facebook:
   id: 'your-facebook-username'
-  href: 'https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&p[title]={{ page.title }}'
+  href: 'https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}&p[title]={{ page.title | url_encode }}'
   brand: 'Facebook'
   fa-icon: 'fa-facebook-square'
 
 twitter:
   id: '@your-twitter-name'
-  href: 'https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}'
+  href: 'https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username | url_encode }}&related={{ site.twitter_username | url_encode }}'
   brand: 'Twitter'
   fa-icon: 'fa-twitter-square'
 

@@ -19,5 +19,5 @@ Each post is from a just-released work, be it novel, poem, screenplay, or essay.
 Some works have been years, even decades, in the making, so we feel honored to
 be entrusted with presenting each one on this blog for your enjoyment.  
 
-So make yourself a warm &mdash; or cool &mdash; beverage, retire to your
-favorite spot, then kick back and enjoy!
+So make yourself a cup or glass of your favorite beverage, retire to your
+favorite spot, and kick back and enjoy!

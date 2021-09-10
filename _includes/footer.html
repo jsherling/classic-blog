@@ -43,27 +43,27 @@
         </svg>
       </li>
       <li>
-        <svg class="sprite reddit">
-          <use href="assets/icons/brands.svg#reddit-square" />
-        </svg>
-      </li>
-      <li>
         <svg class="sprite facebook-messenger">
           <use href="assets/icons/brands.svg#facebook-messenger" />
         </svg>
       </li>
       <li>
-        <svg class="sprite email">
-          <use href="assets/icons/solid.svg#envelope-square" />
+        <a href="mailto:sherling@xmission.com?subject={{ page.title }}">
+          <svg class="sprite email">
+            <use href="assets/icons/solid.svg#envelope-square" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <svg class="sprite print" onclick="window.print(); return false;">
+          <use href="assets/icons/solid.svg#print" />
         </svg>
       </li>
       <!--
       Twitter   https://twitter.com/share?text=<TITLE>&url=<URL>&via=<TWITTER-HANDLE>&related=<TWITTER-HANDLE>
       Facebook  https://www.facebook.com/sharer.php?u=<URL>&p[title]=<TITLE>
-      Pinterest https://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>
       LinkedIn  https://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>
       Tumblr    https://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>
-      Reddit    https://www.reddit.com/submit?url=<URL>&title=<TITLE>
       -->
     </ul>
     <ul>
@@ -72,6 +72,13 @@
           Tweet
         </a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+      <li>
+        <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+        <script type="IN/Share" data-url="http://localhost:4000"></script>
+      </li>
+      <li>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Flocalhost:4000%2Fclassic-blog%2Fcervantes%2Fdon-quixote%2F&layout=button&size=large&width=77&height=28&appId" width="77" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       </li>
     </ul>
   </section>
