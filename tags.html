@@ -3,19 +3,19 @@ layout: static-pages
 title: Tags
 ---
 
-<div class="tags-page">
+<section class="tags-page">
   <section class="posts">
     <h2 class="mb-dot5em center">Posts</h2>
     <div class="left">
       {% for tag in site.tags %}
-        <h4 class="pt-1em" id="{{ tag[0] }}">{{ tag[0] }}</h4>
+        <strong><p class="serif" id="{{ tag[0] }}">{{ tag[0] | capitalize }}</p></strong>
         <ul>
           {% for post in tag[1] %}
             <li>
               <p class="mb-dot5em">
                 <a class="tag" href="{{ post.url | relative_url }}">
                     {{ post.title }}
-                  </a> | {{ post.date | date: "%b %d, %Y" }}
+                  </a>
               </p>
             </li>
           {% endfor %}
@@ -29,7 +29,7 @@ title: Tags
     <div class="left">
       {% assign tags =  site.articles | map: 'tags' | uniq %}
       {% for temp in tags %}
-        <h4 class="pt-1em" id="{{ temp }}">{{ temp | capitalize }}</h4>
+        <strong><p class="serif" id="{{ temp }}">{{ temp | capitalize }}</p></strong>
         <ul>
           {% for article in site.articles %}
             {% if article.tags contains temp %}
@@ -37,7 +37,7 @@ title: Tags
               <p class="mb-dot5em">
                 <a href="{{ article.url | relative_url }}">
                   {{ article.title }}
-                </a> | {{ article.date | date: "%b %d, %Y" }}
+                </a>
               </p>
             </li>
             {% endif %}
@@ -46,4 +46,4 @@ title: Tags
       {% endfor %}
     </div>
   </section>
-</div>
+</section>

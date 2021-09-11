@@ -39,9 +39,3 @@ tumblr:
   href: 'https://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.description }}'
   brand: 'Tumblr'
   fa-icon: 'fab fa-tumblr-square'
-
-reddit:
-  id: 'your-reddit-name'
-  href: 'https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}'
-  brand: 'Reddit'
-  fa-icon: 'fab fa-reddit-square'

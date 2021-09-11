@@ -4,12 +4,10 @@
 }
 
 body * {
+  width: 100%;
   display: none;
-  max-width: 85vw;
   color: var(--print-color);
   background-color: var(--print-bg);
-  margin: 0 auto;
-  padding-top: 1em;
 }
 
 .printable,
@@ -20,4 +18,20 @@ body * {
 .printable figure,
 .printable svg {
   display: none;
+}
+
+header {
+  break-after: avoid;
+  break-inside: avoid;
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 110%;
+}
+
+@media print {
+  @page {
+    margin: 1in;
+  }
 }

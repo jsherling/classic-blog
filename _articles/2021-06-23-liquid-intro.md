@@ -8,7 +8,7 @@ image-name: "Image by Annie Spratt (Unsplash.com)"
 image-location: "/assets/images/waves-of-grain.jpg"
 description: Escaping special characters in markdown
 locale: en_US
-tags: liquid special characters markdown
+tags: special characters markdown
 ---
 
 **4.16 Escape special characters**

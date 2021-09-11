@@ -71,6 +71,11 @@ p {
   margin-bottom: 1em;
 }
 
+p.serif {
+  font-family: $system-serif;
+  margin: 0;
+}
+
 li {
   list-style-type: none;
 }

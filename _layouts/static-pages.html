@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="mb-1em">
+<header class="mb-1em">
   <h1 class="heading center">{{ page.title }}</h1>
   {% if page.subtitle %}
   <h2 class="heading center">{{ page.subtitle }}</h2>
   {% endif %}
-</div>
+</header>
 
 {% if page.image-name and page.image-location %}
 <figure class="image">
@@ -17,6 +17,6 @@ layout: default
 </figure>
 {% endif %}
 
-<div>
+<main class="container printable">
   {{ content }}
-</div>
+</main>

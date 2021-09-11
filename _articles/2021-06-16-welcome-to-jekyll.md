@@ -5,7 +5,7 @@ author: Staff
 date:   2021-06-16
 description: Basics of Jekyll
 locale: en_US
-tags: jekyll posts naming snippets web server
+tags: jekyll posts snippets
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and
