@@ -29,34 +29,52 @@
     <ul>
       <li>
         <svg class="sprite facebook">
-          <use href="assets/icons/brands.svg#facebook-square" />
+          <use href="{{ site.baseurl }}/assets/icons/brands.svg#facebook-square" />
         </svg>
       </li>
       <li>
         <svg class="sprite linkedin">
-          <use href="assets/icons/brands.svg#linkedin" />
+          <use href="{{ site.baseurl }}/assets/icons/brands.svg#linkedin" />
         </svg>
       </li>
       <li>
         <svg class="sprite twitter">
-          <use href="assets/icons/brands.svg#twitter-square" />
+          <use href="{{ site.baseurl }}/assets/icons/brands.svg#twitter-square" />
         </svg>
       </li>
       <li>
         <svg class="sprite facebook-messenger">
-          <use href="assets/icons/brands.svg#facebook-messenger" />
+          <use href="{{ site.baseurl }}/assets/icons/brands.svg#facebook-messenger" />
         </svg>
       </li>
       <li>
-        <a href="mailto:sherling@xmission.com?subject={{ page.title }}">
+        <a href="mailto:?subject={{ page.title }}">
           <svg class="sprite email">
-            <use href="assets/icons/solid.svg#envelope-square" />
+            <use href="{{ site.baseurl }}/assets/icons/solid.svg#envelope-square" />
           </svg>
         </a>
       </li>
       <li>
+        <!-- <button class="copy-url" onclick="copyToClipboard()"> -->
+        <svg class="sprite link" onclick="copyToClipboard()">
+          <use href="{{ site.baseurl }}/assets/icons/solid.svg#link" />
+        </svg>
+        <script>
+          function copyToClipboard() {
+            const input = document.body.appendChild(document.createElement("input"));
+            input.value = window.location.href;
+            input.focus();
+            input.select();
+            document.execCommand('copy');
+            input.parentNode.removeChild(input);
+            alert("URL Copied.");
+          }
+        </script>
+        <!-- </button> -->
+      </li>
+      <li>
         <svg class="sprite print" onclick="window.print(); return false;">
-          <use href="assets/icons/solid.svg#print" />
+          <use href="{{ site.baseurl }}/assets/icons/solid.svg#print" />
         </svg>
       </li>
       <!--

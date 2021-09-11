@@ -1,0 +1,23 @@
+:root {
+  --print-color: #000;
+  --print-bg: #fff;
+}
+
+body * {
+  display: none;
+  max-width: 85vw;
+  color: var(--print-color);
+  background-color: var(--print-bg);
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.printable,
+.printable * {
+  display: block;
+}
+
+.printable figure,
+.printable svg {
+  display: none;
+}

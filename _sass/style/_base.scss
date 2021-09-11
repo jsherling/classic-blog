@@ -240,15 +240,3 @@ th, td {
     border: 1px solid $default-color;
   }
 }
-
-@media print {
-  $font-color: #000;
-
-  body {
-    visibility: hidden !important;
-  }
-
-  .print {
-    visibility: visible !important;
-  }
-}

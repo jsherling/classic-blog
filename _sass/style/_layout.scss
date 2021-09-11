@@ -191,11 +191,13 @@ svg.sprite {
 }
 
 svg.email,
-svg.print {
+svg.print,
+svg.link {
   fill: rgb(115, 138, 141);
 }
 
-svg.print {
+svg.print,
+svg.link {
   max-width: 1.7em;
   max-height: 1.7em;
 }
