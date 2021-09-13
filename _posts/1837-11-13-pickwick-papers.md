@@ -11,7 +11,7 @@ tags: English Picaresque Criticism Comedy
 <p></p>
 
 The first ray of light which illumines the gloom, and converts into a dazzling
-brilliancy that obscurity in which the earlier history of the public career of
+brilliancy that obscurity in which the earlier history of the public career<!--more--> of
 the immortal Pickwick would appear to be involved, is derived from the perusal
 of the following entry in the Transactions of the Pickwick Club, which the
 editor of these papers feels the highest pleasure in laying before his readers,

@@ -12,7 +12,7 @@ tags: French Politics Cricism
 
 On Thursday, December 20, 1848, the Constituent Assembly, being in session,
 surrounded at that moment by an imposing display of troops, heard the report of
-the Representative Waldeck-Rousseau, read on behalf of the committee which had
+the Representative<!--more--> Waldeck-Rousseau, read on behalf of the committee which had
 been appointed to scrutinize the votes in the election of President of the
 Republic; a report in which general attention had marked this phrase, which
 embodied its whole idea: "It is the seal of its inviolable authority which the

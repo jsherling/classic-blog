@@ -9,7 +9,7 @@ tags: English Bildungsroman
 ---
 My father’s family name being Pirrip, and my Christian name Philip, my infant
 tongue could make of both names nothing longer or more explicit than Pip. So, I
-called myself Pip, and came to be called Pip.
+called myself Pip, and came to be called Pip<!--more-->.
 
 I give Pirrip as my father’s family name, on the authority of his tombstone and
 my sister,—Mrs. Joe Gargery, who married the blacksmith. As I never saw my
