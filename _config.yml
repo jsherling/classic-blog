@@ -3,21 +3,6 @@ domain: jsherling.github.io
 url: https://jsherling.github.io
 baseurl: /classic-blog
 
-twitter:
-  username: bubblejuice
-  card: summary
-facebook:
-  app_id: 1435
-  publisher: 1435
-  admins: 1435
-social:
-  name: Bubba Juice
-  links:
-    - https://twitter.com/BubbleJuice
-    - https://www.facebook.com/bubba.juice
-    - https://www.linkedin.com/in/BubbleJuice
-    - https://github.com/BobJameson
-
 collections:
   articles:
     output: true
@@ -35,20 +20,20 @@ collections:
     output: true
 
 permalink: /:categories/:title/
-
 excerpt_separator: <!--more-->
-
+sass:
+  style: compressed
 include:
   - _*.html
+google_analytics: 'UA—XXXXXXXX-X' # Add 'JEKYLL_ENV=production' prior to build
+#     command if deploying on platform other than GitHub
+#     e.g., JEKYLL_ENV=production bundle exec jekyll build
 
 # Build settings
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-
-sass:
-  style: compressed
 
 defaults:
   - scope:
@@ -58,4 +43,3 @@ defaults:
 
 repository: jsherling/classic-blog
 github: [metadata]
-

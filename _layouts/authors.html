@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="left">
-  <div class="mb-1em">
+<section class="left">
+  <section class="mb-1em">
     <h1 class="left">{{ page.name }}</h1>
     <small><b>{{ page.position }}</b></small>
-  </div>
-  <div class="content mb-1em">
+  </section>
+  <section class="content mb-1em">
     <p>
       {{ content }}
     </p>
     <br>
-  </div>
+  </section>
 
   {% assign filtered_posts = site.posts | where: "author", page.name %}
   {% if filtered_posts.size > 0 %}
@@ -35,4 +35,4 @@ layout: default
       {% endfor %}
     </ul>
   {% endif %}
-</div>
+</section>
