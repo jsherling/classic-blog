@@ -167,7 +167,7 @@ th, td {
     padding-left: 1em;
   }
 
-  .footer > div > p {
+  .footer > section > p {
     margin-bottom: 0.5em;
   }
 
@@ -178,6 +178,10 @@ th, td {
   table {
     width: 75%;
   }
+}
+
+@media screen and (min-width: 761px) {
+
 }
 
 @media screen and (min-width: 1008px) {
@@ -191,7 +195,7 @@ th, td {
     font-size: 1rem;
   }
 
-  .footer > div > p {
+  .footer > section > p {
     margin-bottom: 1em;
   }
 
