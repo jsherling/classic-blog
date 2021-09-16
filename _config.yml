@@ -19,15 +19,20 @@ collections:
       - hyde.md
     output: true
 
-permalink: /:categories/:title/
+# Misc. settings
 excerpt_separator: <!--more-->
-sass:
-  style: compressed
-include:
-  - _*.html
 google_analytics: 'UA—XXXXXXXX-X' # Add 'JEKYLL_ENV=production' prior to build
 #     command if deploying on platform other than GitHub
 #     e.g., JEKYLL_ENV=production bundle exec jekyll build
+include:
+  - _*.html
+permalink: /:categories/:title/
+sass:
+  style: compressed
+
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
 
 # Build settings
 plugins:
@@ -41,5 +46,6 @@ defaults:
     values:
       image: true
 
+# GitHub
 repository: jsherling/classic-blog
 github: [metadata]
