@@ -26,7 +26,7 @@ google_analytics: 'UA—XXXXXXXX-X' # Add 'JEKYLL_ENV=production' prior to build
 #     e.g., JEKYLL_ENV=production bundle exec jekyll build
 include:
   - _*.html
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 sass:
   style: compressed
 
