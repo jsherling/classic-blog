@@ -1,7 +1,6 @@
 title: A Classic Blog
-domain: jsherling.github.io
-url: https://jsherling.github.io
-baseurl: /classic-blog
+domain: username.github.io
+url: https://username.github.io
 
 collections:
   articles:
@@ -26,7 +25,7 @@ google_analytics: 'UA—XXXXXXXX-X' # Add 'JEKYLL_ENV=production' prior to build
 #     e.g., JEKYLL_ENV=production bundle exec jekyll build
 include:
   - _*.html
-# permalink: /:categories/:title/
+# permalink: /:categories/:title/ # Remove in order for Paginate to work
 sass:
   style: compressed
 
@@ -47,5 +46,5 @@ defaults:
       image: true
 
 # GitHub
-repository: jsherling/classic-blog
+repository: username/repo-name
 github: [metadata]
