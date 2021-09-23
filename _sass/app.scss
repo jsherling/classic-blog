@@ -20,7 +20,8 @@ $light-grey: #959595;
 $default-color: gray;
 $footer-bg-color: #e6e6e6;
 $font-color: darken($default-color, 60%);
-$light-color: lighten($default-color, 40%);
+/* $light-color: lighten($default-color, 40%); */
+$light-color: #f3f3f3;
 $important-color: red;
 $information-color: blue;
 $black-color: lighten(black, 5%);

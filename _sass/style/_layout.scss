@@ -5,13 +5,23 @@
   top: 0;
   left: 0;
   right: 0;
+  border-bottom: 1px solid $black-color;
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.9),
+    2px 0 4px rgba(0, 0, 0, 0.7),
+    4px 0 8px  rgba(0, 0, 0, 0.5),
+    6px 0 12px  rgba(0, 0, 0, 0.3),
+    8px 0 16px  rgba(0, 0, 0, 0.1)
+  ;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
 
   &--nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: $black-color;
-    color: $white-color;
+    /* background-color: $white-color; */
+    background-color: rgba(200, 200, 200, 0.2);
+    color: $black-color;
 
     &__logo {
       display: flex;
@@ -21,7 +31,7 @@
       margin: 1em 0 1em 2em;
 
       & h1 {
-        color: $white-color;
+        color: $black-color;
         font-weight: bold;
       }
     }
@@ -38,7 +48,7 @@
         font-size: 0.7rem;
 
         & > a {
-          color: $white-color;
+          color: $black-color;
           text-decoration: underline;
           border-radius: $radius;
 
