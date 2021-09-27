@@ -12,7 +12,7 @@ title: Tags
         <ul>
           {% for post in tag[1] %}
             <li>
-              <p class="mb-dot5em">
+              <p class="mb-dot25em">
                 <a class="tag" href="{{ post.url | relative_url }}">
                     {{ post.title }}
                   </a>
@@ -34,7 +34,7 @@ title: Tags
           {% for article in site.articles %}
             {% if article.tags contains temp %}
             <li>
-              <p class="mb-dot5em">
+              <p class="mb-dot25em">
                 <a href="{{ article.url | relative_url }}">
                   {{ article.title }}
                 </a>

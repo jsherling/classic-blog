@@ -92,6 +92,10 @@ li {
   margin-bottom: 0.5em;
 }
 
+.mb-dot25em {
+  margin-bottom: 0.25em;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -104,7 +108,7 @@ a:active {
 }
 
 a.tag {
-  padding: 0.2em 0.4em;
+  padding: 0.2em 0.5em;
 
   &:not(:last-child) {
     margin-bottom: 0.4em;
@@ -180,10 +184,6 @@ th, td {
   }
 }
 
-@media screen and (min-width: 761px) {
-
-}
-
 @media screen and (min-width: 1008px) {
   html body {
     font-size: $large-device-fs;
@@ -193,10 +193,6 @@ th, td {
 
   li.header--nav__menu-item {
     font-size: 1rem;
-  }
-
-  .footer > section > p {
-    margin-bottom: 1em;
   }
 
   p {
@@ -239,8 +235,8 @@ th, td {
     background: transparent;
   }
 
-  li.header--nav__menu-item > a,
-  li.footer--nav__menu-item > a {
+  li.header--nav__menu-item a,
+  li.footer--nav__menu-item a {
     text-decoration: none;
     padding: 0.4em 0.5em;
   }

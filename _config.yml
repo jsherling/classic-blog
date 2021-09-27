@@ -1,4 +1,6 @@
 title: A Classic Blog
+description: The mostest bestest blog in Classics style
+author: J.P. Sloozermudge
 domain: username.github.io
 url: https://username.github.io
 
@@ -25,7 +27,7 @@ google_analytics: 'UA—XXXXXXXX-X' # Add 'JEKYLL_ENV=production' prior to build
 #     e.g., JEKYLL_ENV=production bundle exec jekyll build
 include:
   - _*.html
-# permalink: /:categories/:title/ # Remove in order for Paginate to work
+permalink: /:categories/:title/ # Remove in order for Paginate to work
 sass:
   style: compressed
 
@@ -35,6 +37,7 @@ paginate_path: /blog/page:num/
 
 # Build settings
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
