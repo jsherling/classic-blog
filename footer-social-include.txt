@@ -1,0 +1,63 @@
+TODO: Remove file after determining content is no longer needed
+
+  <!--
+   <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  -->
+
+
+<!--
+Twitter   https://twitter.com/share?text=<TITLE>&url=<URL>&via=<TWITTER-HANDLE>&related=<TWITTER-HANDLE>
+Facebook  https://www.facebook.com/sharer.php?u=<URL>&p[title]=<TITLE>
+LinkedIn  https://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>
+
+    <li>
+  <svg class="sprite facebook">
+    <use href="{{ site.baseurl }}/assets/icons/brands.svg#facebook-square" />
+  </svg>
+</li>
+<li>
+  <svg class="sprite linkedin">
+    <use href="{{ site.baseurl }}/assets/icons/brands.svg#linkedin" />
+  </svg>
+</li>
+<li>
+  <svg class="sprite twitter">
+    <use href="{{ site.baseurl }}/assets/icons/brands.svg#twitter-square" />
+  </svg>
+</li>
+-->
+
+<!--  <ul>
+    <li>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">
+        Tweet
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </li>
+    <li>
+      <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+      <script type="IN/Share" data-url=""></script>
+    </li>
+    <li>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Flocalhost:4000%2Fclassic-blog%2Fcervantes%2Fdon-quixote%2F&layout=button&size=large&width=85&height=36&appId" width="85" height="36" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </li>
+  </ul> -->
+
+<!--
+{% if site.data.social-media %}
+<aside class="social-media">
+  {% assign sites = site.data.social-media %}
+  {% for site in sites %}
+    {% assign brand = site | first %}
+    {% if sites[brand].id %}
+      <a href="{{ sites[brand].href }}{{ sites[brand].id }}" title="{{ sites[brand].title }}">
+        <i class="{{ sites[brand].fa-icon }}"></i>
+      </a>
+      < !-- Use next two links to verify functionality; remove after testing -- >
+      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+      <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    {% endif %}
+  {% endfor %}
+</aside>
+{% endif %}
+-->
