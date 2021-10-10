@@ -55,7 +55,7 @@
         & > a {
           color: $black-color;
           text-decoration: underline;
-          border-radius: $radius;
+          border-radius: $std-radius;
 
           &.current {
             color: $important-color;

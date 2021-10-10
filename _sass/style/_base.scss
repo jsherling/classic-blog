@@ -116,7 +116,7 @@ a.tag {
 
   &.border {
     border: 1px solid $information-color;
-    border-radius: 5px;
+    border-radius: $std-radius;
 
     &:not(:last-child) {
       margin-right: 0.3em;
@@ -220,7 +220,7 @@ th, td {
 @media (hover: hover) {
   a {
     color: inherit;
-    border-radius: $radius;
+    border-radius: $std-radius;
     text-decoration: none;
   }
 

@@ -28,7 +28,7 @@ $black-color: lighten(black, 5%);
 $white-color: darken(white, 5%);
 
 /* Misc. */
-$radius: 5px;
+$std-radius: 5px;
 
 @import "style/normalize",
 "style/base",
