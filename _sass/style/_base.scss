@@ -6,7 +6,7 @@ html {
 
 body {
   background-color: $light-color;
-  font-family: $base-font-family;
+  font-family: $default-font-family;
   font-size: $small-device-fs;
   color: $font-color;
   min-height: 100vh;
@@ -30,7 +30,7 @@ ul, li {
 }
 
 h1, h2, h3, h4 {
-  font-family: $system-serif;
+  font-family: $serif-font-family;
   font-weight: normal;
   line-height: 1;
 }
@@ -72,7 +72,7 @@ p {
 }
 
 p.serif {
-  font-family: $system-serif;
+  font-family: $serif-font-family;
   margin: 0;
 }
 
