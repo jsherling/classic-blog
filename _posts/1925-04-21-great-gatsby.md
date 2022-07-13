@@ -5,7 +5,11 @@ author: F. Scott Fitzgerald
 category: Fitzgerald
 description: First four paragraphs of "The Great Gatsby"
 locale: en_US
-tags: American Drama
+categories:
+  - American
+  - Novel
+tags:
+  - Drama
 ---
 In my younger and more vulnerable years my father gave me some advice that I’ve
 been turning over in my mind ever since<!--more-->.

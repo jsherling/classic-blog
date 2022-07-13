@@ -5,7 +5,12 @@ author: Victor Hugo
 category: Hugo
 description: First six paragraphs of 'Napoléon le Petit'
 locale: en_US
-tags: French Politics Cricism
+categories:
+  - French
+  - Essay
+tags:
+  - Politics
+  - Criticism
 ---
 <strong>December 20, 1848</strong>
 <p></p>

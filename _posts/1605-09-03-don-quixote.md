@@ -5,7 +5,11 @@ author: Miguel de Cervantes
 category: Cervantes
 description: First three paragraphs of 'Don Quixote'
 locale: en_US
-tags: Spanish Comedy
+categories:
+  - Spanish
+  - Novel
+tags:
+  - Comedy
 ---
 In a village of La Mancha, the name of which I have no desire to call to mind,
 there lived not long since one of those gentlemen that keep a lance in the

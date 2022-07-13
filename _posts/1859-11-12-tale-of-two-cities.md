@@ -5,7 +5,11 @@ author: Charles Dickens
 category: Dickens
 description: First four paragraphs of 'A Tale of Two Cities'
 locale: en_US
-tags: English Historical
+categories:
+  - English
+  - Novel
+tags:
+  - Historical
 ---
 It was the best of times, it was the worst of times, it was the age of wisdom,
 it was the age of foolishness, it was the epoch of belief, it was the epoch of

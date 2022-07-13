@@ -5,7 +5,11 @@ author: Gustave Flaubert
 category: Flaubert
 description: First eight paragraphs of 'Madame Bovary'
 locale: en_US
-tags: French Domestic
+categories:
+  - French
+  - Novel
+tags:
+  - Domestic
 ---
 We were in class when the head-master came in, followed by a “new fellow,” not
 wearing the school uniform, and a school servant carrying a large desk. Those

@@ -5,7 +5,11 @@ author: Charles Dickens
 category: Dickens
 description: First five paragraphs of 'David Copperfield'
 locale: en_US
-tags: English Bildungsroman
+categories:
+- English
+- Novel
+tags:
+  - Bildungsroman
 ---
 Whether I shall turn out to be the hero of my own life, or whether that station
 will be held by anybody else, these pages must show. To begin my life with the

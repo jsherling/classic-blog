@@ -5,7 +5,11 @@ author: Thomas Hardy
 category: Hardy
 description: First 15 paragraphs of "Tess of the D'Urbervilles"
 locale: en_US
-tags: English Tragedy
+categories:
+  - English
+  - Novel
+tags:
+  - Tragedy
 ---
 On an evening in the latter part of May a middle-aged man was walking homeward
 from Shaston to the village of Marlott, in the adjoining Vale of Blakemore, or

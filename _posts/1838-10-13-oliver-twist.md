@@ -5,7 +5,12 @@ author: Charles Dickens
 category: Dickens
 description: First four paragraphs of 'Oliver Twist'
 locale: en_US
-tags: English Bildungsroman
+categories:
+  - English
+  - Novel
+tags:
+  - Bildungsroman
+  - Social Criticism
 ---
 <strong>TREATS OF THE PLACE WHERE OLIVER TWIST WAS BORN AND OF THE CIRCUMSTANCES
 ATTENDING HIS BIRTH</strong>

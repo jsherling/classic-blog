@@ -5,7 +5,10 @@ author: Victor Hugo
 category: Hugo
 description: First five paragraphs of 'The Toilers of the Sea'
 locale: en_US
-tags: French Drama
+categories:
+  - French
+tags:
+  - Drama
 ---
 <strong>THE HISTORY OF A BAD REPUTATION</strong>
 

@@ -5,7 +5,11 @@ author: Charles Dickens
 category: Dickens
 description: First three paragraphs of 'Great Expectations'
 locale: en_US
-tags: English Bildungsroman
+categories:
+  - English
+  - Novel
+tags:
+  - Bildungsroman
 ---
 My father’s family name being Pirrip, and my Christian name Philip, my infant
 tongue could make of both names nothing longer or more explicit than Pip. So, I

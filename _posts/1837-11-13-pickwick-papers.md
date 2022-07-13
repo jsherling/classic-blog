@@ -5,7 +5,13 @@ author: Charles Dickens
 category: Dickens
 description: First nine paragraphs of 'The Pickwick Papers'
 locale: en_US
-tags: English Picaresque Criticism Comedy
+categories:
+  - English
+  - Novel
+tags:
+  - Picaresque
+  - Social Criticism
+  - Comedy
 ---
 <strong>THE PICKWICKIANS</strong>
 <p></p>
